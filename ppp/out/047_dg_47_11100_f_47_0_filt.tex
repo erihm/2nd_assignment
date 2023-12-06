@@ -1,0 +1,110 @@
+\begin{tikzpicture}[remember picture, scale=\modDGHyperScale]
+\input{\modInputPrefix/out/038_dg_47_11100_f_47_0_filt_coord.tex}
+% id = 0, graphName = Ribulose-5-Phosphate
+\node[modStyleDGHyperVertex, at=(v-coord-0-0)] (v-0-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/004_g_0_11311100.pdf}\\{$\mathrm{Ribulose-5-Phosphate}$}};
+% id = 1, graphName = H2O
+% id = 2, graphName = p_{47,0}
+% id = 4, graphName = p_{47,1}
+% id = 5, graphName = p_{47,2}
+\node[modStyleDGHyperVertex, at=(v-coord-5-0)] (v-5-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/040_g_1376_11311100.pdf}\\{$\mathrm{p_{47,2}}$}};
+% id = 7, graphName = p_{47,3}
+% id = 8, graphName = p_{47,4}
+\node[modStyleDGHyperVertex, at=(v-coord-8-0)] (v-8-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/042_g_1380_11311100.pdf}\\{$\mathrm{p_{47,4}}$}};
+% id = 10, graphName = p_{47,5}
+% id = 12, graphName = p_{47,6}
+% id = 15, graphName = p_{47,7}
+\node[modStyleDGHyperVertex, at=(v-coord-15-0)] (v-15-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/044_g_1391_11311100.pdf}\\{$\mathrm{p_{47,7}}$}};
+% id = 18, graphName = p_{47,8}
+% id = 24, graphName = Fructose-6-Phosphate
+\node[modStyleDGHyperVertex, at=(v-coord-24-0)] (v-24-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/012_g_2_11311100.pdf}\\{$\mathrm{Fructose-6-Phosphate}$}};
+% id = 25, graphName = p_{47,9}
+\node[modStyleDGHyperVertex, at=(v-coord-25-0)] (v-25-0) {\includegraphics[scale=\modDGHyperImageScale] {\modInputPrefix/out/046_g_1412_11311100.pdf}\\{$\mathrm{p_{47,9}}$}};
+% id = 34, graphName = p_{47,10}
+% id = 36, graphName = p_{47,11}
+% id = 63, graphName = p_{47,12}
+% id = 65, graphName = p_{47,13}
+% id = 67, graphName = p_{47,14}
+% id = 23{ 'Ribulose-5-Phosphate' 'p_{47,4}' }, 'Transketolase', { 'p_{47,2}' 'p_{47,7}' }
+\node[modStyleDGHyperEdge, at=(v-coord-23-0)] (v-23-0) {$\mathrm{f\ 25,\ r_{2}}$};
+% id = 30{ 'Ribulose-5-Phosphate' 'p_{47,2}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{47,4}' }
+\node[modStyleDGHyperEdge, at=(v-coord-30-0)] (v-30-0) {$\mathrm{f\ 49,\ r_{3}}$};
+% id = 52{ 'Ribulose-5-Phosphate' 'p_{47,9}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{47,2}' }
+\node[modStyleDGHyperEdge, at=(v-coord-52-0)] (v-52-0) {$\mathrm{f\ 25,\ r_{2}}$};
+% id = 3{ 'Ribulose-5-Phosphate' }, 'Aldose-Ketose <-', { 'p_{47,0}' }
+% id = 6{ 'Ribulose-5-Phosphate' 'p_{47,0}' }, 'Transketolase', { 'p_{47,1}' 'p_{47,2}' }
+% id = 9{ 'Ribulose-5-Phosphate' 'p_{47,0}' }, 'Transaldolase', { 'p_{47,3}' 'p_{47,4}' }
+% id = 11{ 'p_{47,1}' }, 'Aldose-Ketose <-', { 'p_{47,5}' }
+% id = 13{ 'p_{47,3}' }, 'Aldose-Ketose <-', { 'p_{47,6}' }
+% id = 14{ 'p_{47,1}' 'p_{47,2}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{47,0}' }
+% id = 16{ 'p_{47,1}' 'p_{47,4}' }, 'Transketolase', { 'p_{47,0}' 'p_{47,7}' }
+% id = 17{ 'p_{47,0}' 'p_{47,1}' }, 'Transketolase', { 'p_{47,0}' 'p_{47,1}' }
+% id = 19{ 'p_{47,2}' 'p_{47,3}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{47,8}' }
+% id = 20{ 'Ribulose-5-Phosphate' 'p_{47,2}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{47,2}' }
+% id = 21{ 'p_{47,3}' 'p_{47,4}' }, 'Transketolase', { 'p_{47,7}' 'p_{47,8}' }
+% id = 22{ 'p_{47,0}' 'p_{47,3}' }, 'Transketolase', { 'p_{47,1}' 'p_{47,8}' }
+% id = 23{ 'Ribulose-5-Phosphate' 'p_{47,4}' }, 'Transketolase', { 'p_{47,2}' 'p_{47,7}' }
+\path[modStyleDGHyperConnector] (v-0-0) to (v-23-0);
+\path[modStyleDGHyperConnector] (v-8-0) to (v-23-0);
+\path[modStyleDGHyperConnector] (v-23-0) to (v-5-0);
+\path[modStyleDGHyperConnector] (v-23-0) to (v-15-0);
+% id = 26{ 'p_{47,1}' 'p_{47,2}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{47,9}' }
+% id = 27{ 'p_{47,1}' 'p_{47,4}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{47,9}' }
+% id = 28{ 'p_{47,0}' 'p_{47,1}' }, 'Transaldolase', { 'p_{47,3}' 'p_{47,9}' }
+% id = 29{ 'p_{47,2}' 'p_{47,3}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{47,0}' }
+% id = 30{ 'Ribulose-5-Phosphate' 'p_{47,2}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{47,4}' }
+\path[modStyleDGHyperConnector] (v-0-0) to (v-30-0);
+\path[modStyleDGHyperConnector] (v-5-0) to (v-30-0);
+\path[modStyleDGHyperConnector] (v-30-0) to (v-8-0);
+\path[modStyleDGHyperConnector] (v-30-0) to (v-24-0);
+% id = 31{ 'p_{47,3}' 'p_{47,4}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{47,0}' }
+% id = 32{ 'p_{47,0}' 'p_{47,3}' }, 'Transaldolase', { 'p_{47,0}' 'p_{47,3}' }
+% id = 33{ 'Ribulose-5-Phosphate' 'p_{47,4}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{47,4}' }
+% id = 35{ 'Ribulose-5-Phosphate' 'p_{47,2}' }, 'Aldolase', { 'p_{47,10}' }
+% id = 37{ 'Ribulose-5-Phosphate' 'p_{47,4}' }, 'Aldolase', { 'p_{47,11}' }
+% id = 38{ 'p_{47,7}' }, 'Aldose-Ketose <-', { 'p_{47,9}' }
+\path[modStyleDGHyperConnector] (v-15-0) to node[auto, swap] {$\mathrm{f\ 25,\ r_{0}}$} (v-25-0);
+% id = 39{ 'Fructose-6-Phosphate' }, 'Aldose-Ketose <-', { 'p_{47,8}' }
+% id = 40{ 'p_{47,7}' 'p_{47,8}' }, 'Transketolase', { 'p_{47,3}' 'p_{47,4}' }
+% id = 41{ 'p_{47,7}' 'p_{47,9}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{47,4}' }
+% id = 42{ 'p_{47,2}' 'p_{47,7}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{47,4}' }
+% id = 43{ 'p_{47,4}' 'p_{47,7}' }, 'Transketolase', { 'p_{47,4}' 'p_{47,7}' }
+% id = 44{ 'p_{47,0}' 'p_{47,7}' }, 'Transketolase', { 'p_{47,1}' 'p_{47,4}' }
+% id = 45{ 'Fructose-6-Phosphate' 'p_{47,8}' }, 'Transketolase', { 'p_{47,3}' 'p_{47,9}' }
+% id = 46{ 'p_{47,1}' 'p_{47,8}' }, 'Transketolase', { 'p_{47,0}' 'p_{47,3}' }
+% id = 47{ 'p_{47,3}' 'p_{47,8}' }, 'Transketolase', { 'p_{47,3}' 'p_{47,8}' }
+% id = 48{ 'Ribulose-5-Phosphate' 'p_{47,8}' }, 'Transketolase', { 'p_{47,2}' 'p_{47,3}' }
+% id = 49{ 'Fructose-6-Phosphate' 'p_{47,9}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{47,9}' }
+% id = 50{ 'p_{47,1}' 'p_{47,9}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{47,0}' }
+% id = 51{ 'p_{47,3}' 'p_{47,9}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{47,8}' }
+% id = 52{ 'Ribulose-5-Phosphate' 'p_{47,9}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{47,2}' }
+\path[modStyleDGHyperConnector] (v-0-0) to (v-52-0);
+\path[modStyleDGHyperConnector] (v-25-0) to (v-52-0);
+\path[modStyleDGHyperConnector] (v-52-0) to (v-5-0);
+\path[modStyleDGHyperConnector] (v-52-0) to (v-24-0);
+% id = 53{ 'Fructose-6-Phosphate' 'p_{47,2}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{47,9}' }
+% id = 54{ 'Fructose-6-Phosphate' 'p_{47,4}' }, 'Transketolase', { 'p_{47,7}' 'p_{47,9}' }
+% id = 55{ 'Fructose-6-Phosphate' 'p_{47,0}' }, 'Transketolase', { 'p_{47,1}' 'p_{47,9}' }
+% id = 56{ 'Fructose-6-Phosphate' 'p_{47,9}' }, 'Transaldolase', { 'p_{47,1}' 'p_{47,2}' }
+% id = 57{ 'p_{47,1}' 'p_{47,9}' }, 'Transaldolase', { 'p_{47,1}' 'p_{47,9}' }
+% id = 58{ 'p_{47,3}' 'p_{47,9}' }, 'Transaldolase', { 'p_{47,0}' 'p_{47,1}' }
+% id = 59{ 'Ribulose-5-Phosphate' 'p_{47,9}' }, 'Transaldolase', { 'p_{47,1}' 'p_{47,4}' }
+% id = 60{ 'Fructose-6-Phosphate' 'p_{47,2}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{47,2}' }
+% id = 61{ 'Fructose-6-Phosphate' 'p_{47,4}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{47,2}' }
+% id = 62{ 'Fructose-6-Phosphate' 'p_{47,0}' }, 'Transaldolase', { 'p_{47,2}' 'p_{47,3}' }
+% id = 64{ 'p_{47,7}' 'p_{47,9}' }, 'Aldolase', { 'p_{47,12}' }
+% id = 66{ 'p_{47,2}' 'p_{47,7}' }, 'Aldolase', { 'p_{47,13}' }
+% id = 68{ 'p_{47,4}' 'p_{47,7}' }, 'Aldolase', { 'p_{47,14}' }
+% id = 69{ 'Fructose-6-Phosphate' 'p_{47,4}' }, 'Aldolase', { 'p_{47,10}' }
+% inFlow/outFlow, id = 0-0, graphName = Ribulose-5-Phosphate, inFlow = 99, outFlow = 0
+\node[modStyleDGHyperVertexHiddenLarge, at=(v-coord-0-0-IOFlow)] (v-0-0-IOFlow) {};
+\path[modStyleDGHyperConnector] (v-0-0-IOFlow) to node[auto, swap] {$\mathrm{f\ 99}$} (v-0-0);
+% inFlow/outFlow, id = 5-0, graphName = p_{47,2}, inFlow = 0, outFlow = 1
+\node[modStyleDGHyperVertexHiddenLarge, at=(v-coord-5-0-IOFlow)] (v-5-0-IOFlow) {};
+\path[modStyleDGHyperConnector] (v-5-0) to node[auto, swap] {$\mathrm{f\ 1}$} (v-5-0-IOFlow);
+% inFlow/outFlow, id = 8-0, graphName = p_{47,4}, inFlow = 0, outFlow = 24
+\node[modStyleDGHyperVertexHiddenLarge, at=(v-coord-8-0-IOFlow)] (v-8-0-IOFlow) {};
+\path[modStyleDGHyperConnector] (v-8-0) to node[auto, swap] {$\mathrm{f\ 24}$} (v-8-0-IOFlow);
+% inFlow/outFlow, id = 24-0, graphName = Fructose-6-Phosphate, inFlow = 0, outFlow = 74
+\node[modStyleDGHyperVertexHiddenLarge, at=(v-coord-24-0-IOFlow)] (v-24-0-IOFlow) {};
+\path[modStyleDGHyperConnector] (v-24-0) to node[auto, swap] {$\mathrm{f\ 74}$} (v-24-0-IOFlow);
+\end{tikzpicture}%

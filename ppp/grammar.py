@@ -1,3 +1,5 @@
+from mod import *
+
 ribuloseP = smiles("OCC(=O)C(O)C(O)COP(=O)(O)O", "Ribulose-5-Phosphate")
 water = smiles("O", "H2O")
 aldoKetoF = ruleGML("aldo_keto_backward.gml")

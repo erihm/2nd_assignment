@@ -1,0 +1,12 @@
+Running Python Interpreter -----------------------------------------
+Executing code from 'dg.py'
+Traceback (most recent call last):
+  File "/home/machado/Desktop/Cheminf/2nd_assignment/2nd_assignment/out/input", line 68, in <module>
+    include("dg.py")
+  File "/home/machado/Desktop/Cheminf/2nd_assignment/2nd_assignment/out/input", line 28, in include
+    ino = os.stat(fPrefixed).st_ino
+FileNotFoundError: [Errno 2] No such file or directory: 'dg.py'
+
+real	0m0.065s
+user	0m0.057s
+sys	0m0.008s

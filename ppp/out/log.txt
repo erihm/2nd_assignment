@@ -1,0 +1,1115 @@
+Running Python Interpreter -----------------------------------------
+Executing code from 'test.py'
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 6 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Flow	num variables	1112
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 148 rows and 485 columns.
+MIP Presolve modified 70 coefficients.
+Aggregator did 19 substitutions.
+Reduced MIP has 376 rows, 606 columns, and 1786 nonzeros.
+Reduced MIP has 105 binaries, 501 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.97 ticks)
+Probing fixed 1 vars, tightened 62 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (2.42 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 57 rows and 30 columns.
+MIP Presolve modified 4 coefficients.
+Reduced MIP has 319 rows, 576 columns, and 1665 nonzeros.
+Reduced MIP has 75 binaries, 501 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.49 ticks)
+Probing time = 0.00 sec. (2.19 ticks)
+Clique table members: 233.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -74.2500    23                    -74.2500       75         
+      0     0      -74.0000     1                    Fract: 2       77         
+*     0+    0                          -74.0000      -74.0000             0.00%
+      0     0        cutoff            -74.0000      -74.0000       77    0.00%
+Elapsed time = 0.01 sec. (19.40 ticks, tree = 0.01 MB, solutions = 1)
+
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (19.45 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (19.45 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 25
+Objective value (integral): -74
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  74  
+Ribulose-5-Phosphate 99 0   
+p_{25,2}             0  1   
+p_{25,4}             0  24  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 7 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Flow	num variables	1335
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 191 rows and 603 columns.
+MIP Presolve modified 78 coefficients.
+Aggregator did 22 substitutions.
+Reduced MIP has 413 rows, 700 columns, and 2017 nonzeros.
+Reduced MIP has 116 binaries, 584 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.49 ticks)
+Probing fixed 1 vars, tightened 74 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (2.79 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 65 rows and 34 columns.
+MIP Presolve modified 4 coefficients.
+Reduced MIP has 348 rows, 666 columns, and 1879 nonzeros.
+Reduced MIP has 82 binaries, 584 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.69 ticks)
+Probing time = 0.00 sec. (2.50 ticks)
+Clique table members: 251.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.47 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -74.2500    29                    -74.2500       57         
+*     0     0      integral     0      -74.0000       Cuts: 4       59    0.00%
+      0     0        cutoff            -74.0000      -74.0000       59    0.00%
+Elapsed time = 0.02 sec. (21.91 ticks, tree = 0.01 MB, solutions = 1)
+
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (21.96 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (21.96 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 41
+Objective value (integral): -74
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  74  
+Ribulose-5-Phosphate 99 0   
+p_{41,2}             0  1   
+p_{41,4}             0  24  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 3 graphs.
+  Round 4:
+  Round 4: Result subset has 2 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 4 graphs.
+  Round 4:
+  Round 4: Result subset has 2 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 8 graphs.
+  Round 4:
+  Round 4: Result subset has 3 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Flow	num variables	1172
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 171 rows and 500 columns.
+MIP Presolve modified 111 coefficients.
+Aggregator did 33 substitutions.
+Reduced MIP has 429 rows, 639 columns, and 1919 nonzeros.
+Reduced MIP has 131 binaries, 508 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.17 ticks)
+Found incumbent of value -1.000000 after 0.01 sec. (8.49 ticks)
+Probing fixed 1 vars, tightened 58 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (2.53 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 95 rows and 49 columns.
+MIP Presolve modified 4 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 333 rows, 589 columns, and 1719 nonzeros.
+Reduced MIP has 82 binaries, 507 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.48 ticks)
+Probing time = 0.00 sec. (2.24 ticks)
+Clique table members: 248.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.98 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           -1.0000      -99.0000              --- 
+      0     0      -74.2500    43       -1.0000      -74.2500       98     --- 
+      0     0      -74.0000    17       -1.0000       Cuts: 8      136     --- 
+*     0+    0                          -74.0000      -74.0000             0.00%
+      0     0        cutoff            -74.0000      -74.0000      136    0.00%
+Elapsed time = 0.02 sec. (25.34 ticks, tree = 0.01 MB, solutions = 2)
+
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (25.40 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (25.40 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 47
+Objective value (integral): -74
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  74  
+Ribulose-5-Phosphate 99 0   
+p_{47,2}             0  1   
+p_{47,4}             0  24  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 10 graphs.
+  Round 4:
+  Round 4: Result subset has 5 graphs.
+  Round 5:
+  Round 5: Result subset has 1 graphs.
+  Round 6:
+  Round 6: Result subset has 0 graphs.
+Flow	num variables	9380
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 313 rows and 2219 columns.
+MIP Presolve modified 168 coefficients.
+Aggregator did 16 substitutions.
+Reduced MIP has 1719 rows, 7144 columns, and 16963 nonzeros.
+Reduced MIP has 409 binaries, 6735 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (13.85 ticks)
+Found incumbent of value -1.000000 after 0.04 sec. (78.42 ticks)
+Probing time = 0.01 sec. (12.12 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1719 rows, 7144 columns, and 16963 nonzeros.
+Reduced MIP has 409 binaries, 6735 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.08 ticks)
+Probing fixed 2 vars, tightened 314 bounds.
+Probing time = 0.05 sec. (87.60 ticks)
+Clique table members: 1686.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (50.52 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           -1.0000      -99.0000              --- 
+      0     0      -79.2000    47       -1.0000      -79.2000      749     --- 
+*     0     0      integral     0      -79.0000       Cuts: 3     1377    0.00%
+      0     0        cutoff            -79.0000      -79.0000     1377    0.00%
+Elapsed time = 0.19 sec. (374.41 ticks, tree = 0.01 MB, solutions = 2)
+
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (374.85 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (374.85 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Phophohydrolase'(5)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 48
+Objective value (integral): -79
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  79  
+H2O                  20 0   
+Ribulose-5-Phosphate 99 0   
+p_{48,1}             0  20  
+p_{48,23}            0  19  
+p_{48,7}             0  1   
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 6 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 9 graphs.
+  Round 4:
+  Round 4: Result subset has 5 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 9 graphs.
+  Round 4:
+  Round 4: Result subset has 7 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Flow	num variables	1437
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 228 rows and 629 columns.
+MIP Presolve modified 149 coefficients.
+Aggregator did 47 substitutions.
+Reduced MIP has 507 rows, 758 columns, and 2244 nonzeros.
+Reduced MIP has 162 binaries, 596 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.71 ticks)
+Probing fixed 1 vars, tightened 66 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (3.01 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 133 rows and 68 columns.
+MIP Presolve modified 4 coefficients.
+Aggregator did 2 substitutions.
+Reduced MIP has 372 rows, 688 columns, and 1969 nonzeros.
+Reduced MIP has 94 binaries, 594 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.86 ticks)
+Probing time = 0.00 sec. (2.64 ticks)
+Clique table members: 277.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.49 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -74.2500    29                    -74.2500       56         
+*     0     0      integral     0      -74.0000      Fract: 3       58    0.00%
+      0     0        cutoff            -74.0000      -74.0000       58    0.00%
+Elapsed time = 0.02 sec. (24.61 ticks, tree = 0.01 MB, solutions = 1)
+
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (24.66 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (24.66 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 56
+Objective value (integral): -74
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  74  
+Ribulose-5-Phosphate 99 0   
+p_{56,2}             0  1   
+p_{56,4}             0  24  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 12 graphs.
+  Round 4:
+  Round 4: Result subset has 5 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Flow	num variables	10190
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 342 rows and 2432 columns.
+MIP Presolve modified 175 coefficients.
+Aggregator did 19 substitutions.
+Reduced MIP has 1815 rows, 7738 columns, and 18256 nonzeros.
+Reduced MIP has 433 binaries, 7305 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (15.35 ticks)
+Probing time = 0.01 sec. (12.32 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1815 rows, 7738 columns, and 18256 nonzeros.
+Reduced MIP has 433 binaries, 7305 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.80 ticks)
+Probing fixed 2 vars, tightened 329 bounds.
+Probing time = 0.05 sec. (94.99 ticks)
+Clique table members: 1802.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.03 sec. (76.00 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -79.2000   122                    -79.2000      829         
+      0     0      -79.0000   257                     Cuts: 3     1042         
+*     0+    0                          -79.0000      -79.0000             0.00%
+      0     0        cutoff            -79.0000      -79.0000     1042    0.00%
+Elapsed time = 0.26 sec. (553.33 ticks, tree = 0.01 MB, solutions = 1)
+
+Zero-half cuts applied:  1
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.26 sec. (553.74 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.26 sec. (553.74 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Phophohydrolase'(5)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 57
+Objective value (integral): -79
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  79  
+H2O                  19 0   
+Ribulose-5-Phosphate 99 0   
+p_{57,1}             0  19  
+p_{57,25}            0  19  
+p_{57,9}             0  1   
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 8 graphs.
+  Round 4:
+  Round 4: Result subset has 10 graphs.
+  Round 5:
+  Round 5: Result subset has 14 graphs.
+  Round 6:
+  Round 6: Result subset has 5 graphs.
+  Round 7:
+  Round 7: Result subset has 10 graphs.
+  Round 8:
+  Round 8: Result subset has 3 graphs.
+  Round 9:
+  Round 9: Result subset has 0 graphs.
+Flow	num variables	4834
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 386 rows and 1085 columns.
+MIP Presolve modified 400 coefficients.
+Aggregator did 86 substitutions.
+Reduced MIP has 1748 rows, 3663 columns, and 10075 nonzeros.
+Reduced MIP has 542 binaries, 3121 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.87 ticks)
+Probing time = 0.01 sec. (7.14 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1748 rows, 3663 columns, and 10075 nonzeros.
+Reduced MIP has 542 binaries, 3121 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.56 ticks)
+Probing fixed 2 vars, tightened 28 bounds.
+Probing time = 0.02 sec. (28.17 ticks)
+Clique table members: 2541.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.01 sec. (11.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -24.7500    30                    -24.7500      243         
+      0     0      -24.0000    62                    Fract: 1      278         
+      0     0      -24.0000    62                 ZeroHalf: 1      324         
+*     0+    0                          -24.0000      -24.0000             0.00%
+      0     0        cutoff            -24.0000      -24.0000      324    0.00%
+Elapsed time = 0.08 sec. (142.22 ticks, tree = 0.01 MB, solutions = 1)
+
+Zero-half cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (142.42 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (142.42 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Aldolase'(4), 'Phophohydrolase'(5)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 58
+Objective value (integral): -24
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  24  
+H2O                  24 0   
+Ribulose-5-Phosphate 96 0   
+p_{58,1}             0  24  
+p_{58,5}             0  48  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 9 graphs.
+  Round 4:
+  Round 4: Result subset has 7 graphs.
+  Round 5:
+  Round 5: Result subset has 11 graphs.
+  Round 6:
+  Round 6: Result subset has 10 graphs.
+  Round 7:
+  Round 7: Result subset has 4 graphs.
+  Round 8:
+  Round 8: Result subset has 9 graphs.
+  Round 9:
+  Round 9: Result subset has 0 graphs.
+Flow	num variables	3217
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 376 rows and 821 columns.
+MIP Presolve modified 401 coefficients.
+Aggregator did 106 substitutions.
+Reduced MIP has 1435 rows, 2290 columns, and 6919 nonzeros.
+Reduced MIP has 483 binaries, 1807 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.52 ticks)
+Probing fixed 2 vars, tightened 19 bounds.
+Probing time = 0.01 sec. (14.26 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 266 rows and 135 columns.
+MIP Presolve modified 9 coefficients.
+Aggregator did 32 substitutions.
+Reduced MIP has 1137 rows, 2123 columns, and 6365 nonzeros.
+Reduced MIP has 348 binaries, 1775 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.65 ticks)
+Probing time = 0.00 sec. (4.81 ticks)
+Clique table members: 1189.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (4.67 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -16.5000    20                    -16.5000      105         
+      0     0      -16.0000    44                    Fract: 1      148         
+*     0+    0                          -16.0000      -16.0000             0.00%
+      0     0        cutoff            -16.0000      -16.0000      148    0.00%
+Elapsed time = 0.05 sec. (73.44 ticks, tree = 0.01 MB, solutions = 1)
+
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.05 sec. (73.57 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.05 sec. (73.57 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 59
+Objective value (integral): -16
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  16  
+H2O                  33 0   
+Ribulose-5-Phosphate 98 0   
+p_{59,1}             0  33  
+p_{59,4}             0  1   
+p_{59,5}             0  49  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 19 graphs.
+  Round 4:
+  Round 4: Result subset has 15 graphs.
+  Round 5:
+  Round 5: Result subset has 3 graphs.
+  Round 6:
+  Round 6: Result subset has 0 graphs.
+Flow	num variables	9731
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 414 rows and 2225 columns.
+MIP Presolve modified 334 coefficients.
+Aggregator did 56 substitutions.
+Reduced MIP has 2055 rows, 7450 columns, and 18154 nonzeros.
+Reduced MIP has 564 binaries, 6886 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (15.39 ticks)
+Probing time = 0.01 sec. (12.31 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 2055 rows, 7450 columns, and 18154 nonzeros.
+Reduced MIP has 564 binaries, 6886 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.95 ticks)
+Probing fixed 2 vars, tightened 299 bounds.
+Probing time = 0.05 sec. (91.46 ticks)
+Clique table members: 2412.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (49.66 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -82.5000    62                    -82.5000      762         
+      0     0      -82.0000    53                    Fract: 3      996         
+*     0+    0                          -82.0000      -82.0000             0.00%
+      0     0        cutoff            -82.0000      -82.0000      996    0.00%
+Elapsed time = 0.17 sec. (311.41 ticks, tree = 0.01 MB, solutions = 1)
+
+Gomory fractional cuts applied:  3
+
+Root node processing (before b&c):
+  Real time             =    0.17 sec. (311.80 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.17 sec. (311.80 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 60
+Objective value (integral): -82
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  82  
+H2O                  16 0   
+Ribulose-5-Phosphate 99 0   
+p_{60,1}             0  16  
+p_{60,6}             0  1   
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 21 graphs.
+  Round 4:
+  Round 4: Result subset has 23 graphs.
+  Round 5:
+  Round 5: Result subset has 3 graphs.
+  Round 6:
+  Round 6: Result subset has 0 graphs.
+Flow	num variables	10675
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 467 rows and 2362 columns.
+MIP Presolve modified 400 coefficients.
+Aggregator did 80 substitutions.
+Reduced MIP has 2294 rows, 8233 columns, and 20056 nonzeros.
+Reduced MIP has 650 binaries, 7583 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (16.14 ticks)
+Found incumbent of value -1.000000 after 0.05 sec. (119.96 ticks)
+Probing time = 0.01 sec. (12.71 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 2294 rows, 8233 columns, and 20056 nonzeros.
+Reduced MIP has 650 binaries, 7583 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (12.23 ticks)
+Probing fixed 2 vars, tightened 318 bounds.
+Probing time = 0.06 sec. (103.40 ticks)
+Clique table members: 2895.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (44.85 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           -1.0000      -99.0000              --- 
+      0     0      -82.5000    40       -1.0000      -82.5000      630     --- 
+      0     0      -82.0000    70       -1.0000      Fract: 2      817     --- 
+*     0+    0                          -81.0000      -82.0000             1.23%
+      0     2      -82.0000    95      -81.0000      -82.0000      817    1.23%
+Elapsed time = 0.24 sec. (491.92 ticks, tree = 0.01 MB, solutions = 2)
+*     8     1      integral     0      -82.0000      -82.0000     1016    0.00%
+
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.24 sec. (492.18 ticks)
+Sequential b&c:
+  Real time             =    0.01 sec. (19.83 ticks)
+                          ------------
+Total (root+branch&cut) =    0.25 sec. (512.02 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+For this set of enzymes:  ['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)]
+----------------------------------------------------------------------
+Listing solution range with 1 solution
+----------------------------------------------------------------------
+Solution 0 from flow model 62
+Objective value (integral): -82
+Vertex/Graph         In Out 
+Fructose-6-Phosphate 0  82  
+H2O                  16 0   
+Ribulose-5-Phosphate 99 0   
+p_{62,13}            0  1   
+p_{62,1}             0  16  
+End of solution range.
+----------------------------------------------------------------------
+For this set of enzymes we obtained 1 solution/s
+WARNING: 'postSection(heading)' is deprecated. Use 'post.summarySection(heading)'. Use config.common.ignoreDeprecation = False to make this an exception.
+['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3)]
+['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3)]
+['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4)]
+['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Phophohydrolase'(5)]
+['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4)]
+['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Phophohydrolase'(5)]
+['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Aldolase'(4), 'Phophohydrolase'(5)]
+['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)]
+['Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)]
+['Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)]
+End of code from 'test.py'
+
+real	0m3.848s
+user	0m3.783s
+sys	0m0.064s
