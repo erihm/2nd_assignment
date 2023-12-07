@@ -14,16 +14,19 @@ enzymes = powerset(inputRules)[1:]
 good_enzymes = []
 bad_enzymes = []
 
-# Use the same dg for all the solutions
-# Remove the try-remove 
-# The objective function is correct
-# To access the values of the flow solution use eval()
-# Visualize lattice with values 
+# For NOW:
+# (E) Use the same dg for all the solutions (2-3)
+# (E) Look at which errors we get
+# (L) To access the values of the flow solution use eval() (3) Make the table solution, amount input, amount waste, amount output, num hyperedges in the solution
+# Does the quality improve with more enzymes? Is the flow more complex w. more enzymes?
+# (Optional): compare multiple solutions w. same objective value.
+# (L) Visualize lattice with values (3)
+
+# For LATER:
 # Add an explanation for the subsets that worked
 # Use another chemistry: knock?
 # Design a system w. artificial rules for illustration
 # "Waste" is the amount of carbons
-# Does the quality improve with more enzymes? Is the flow more complex w. more enzymes?
 # W. more enzymes the flow might be shorter.
 
 for set in enzymes:
@@ -51,7 +54,7 @@ for set in enzymes:
     flow.addConstraint(outFlow[fructoseP] >= 1)
     flow.objectiveFunction = -outFlow[fructoseP] # dg.findVertex(fructoseP)
     for v in dg.vertices: flow.addSink(v)
-    flow.findSolutions(verbosity=0, absGap=0, maxNumSolution=2**20)
+    flow.findSolutions(verbosity=0) #, absGap=0, maxNumSolution=2**20) # check absGap
     
     # while True: 
     #   sols = flow.findSolution()
@@ -78,8 +81,8 @@ for x in good_enzymes:
     print(x)
     
 # First solution
-s0 = flow.solutions[0]
-s0.eval(outFlow[fructoseP])
+# s0 = flow.solutions[0]
+# s0.eval(outFlow[fructoseP])
 # Print info about the solution
 # s0.list()
 # Flow for this solution
