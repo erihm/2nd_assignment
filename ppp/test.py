@@ -41,6 +41,10 @@ strat = (
 dg = DG(graphDatabase=inputGraphs)
 dg.build().execute(strat)
 
+solutions = []
+
+# power_set = enzymes[25]
+# for u in range(1):
 for power_set in enzymes:
     
     # This is from pathway.py
@@ -69,14 +73,44 @@ for power_set in enzymes:
         continue
     else:
         good_enzymes.append(power_set)
-        post.summarySection("Enzymes: %s " % power_set)
+        # post.summarySection("Enzymes: %s " % power_set)
         flowPrinter = FlowPrinter()
         flowPrinter.printUnfiltered = False
-        flow.solutions.print()       
+        flow.solutions.print()
+
+        output = flow.solutions[0].eval(outFlow[fructoseP])
+        waste = flow.solutions[0].eval(outFlow) - output
+        reactions = flow.solutions[0].eval(isEdgeUsed)
+        solutions.append([power_set, output, waste, reactions])
     
 for x in good_enzymes:
     print(x)
-    
+
+latex = (
+"\\newpage\n" +
+"\\section{Result}\n")
+
+latex += ("\\begin{center}\n" +
+"\\begin{longtable}{ |c|c|c|c|c| }\n" +
+"\\hline\n" +
+"\#enzymes & enzymes & \#Fructose-6-Phosphate & \#waste & \#reactions \\\\\n" +
+"\\hline\n")
+
+for sol in solutions:
+    i = 0
+    for en in sol[0]:
+        if i < len(sol[0]) - 1:
+            latex += " & " + str(en) + " & & & \\\\\n"
+        else:
+            latex += str(len(sol[0])) + " & " +str(en)
+        i += 1
+    latex += " & " + str(sol[1]) + " & " + str(sol[2]) + " & " + str(sol[3]) + "\\\\\n \\hline\n"
+
+latex += ("\\end{longtable}\n" +
+"\\end{center}\n")
+
+post.summaryRaw(latex)
+
 # First solution
 # s0 = flow.solutions[0]
 # s0.eval(outFlow[fructoseP])
