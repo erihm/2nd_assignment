@@ -29,26 +29,29 @@ bad_enzymes = []
 # "Waste" is the amount of carbons
 # W. more enzymes the flow might be shorter.
 
-for set in enzymes:
-    inputRules = list(set)
+# This part is from dg.py
+pShortest = lambda d: all(a.vLabelCount("C") <= 8 for a in d.right) # The likelihood of a big molecule undergoing a reaction is very high
 
-    # This part is from dg.py
-    pShortest = lambda d: all(a.vLabelCount("C") <= 8 for a in d.right) # The likelihood of a big molecule undergoing a reaction is very high
-
-    strat = (
-        addSubset(ribuloseP, water)
-        >> rightPredicate[pShortest]( # put pShorter, pEvenShorter or pShortest here, instead of p (they are all equivalent)
-                repeat(inputRules)
-        )
+strat = (
+    addSubset(ribuloseP, water)
+    >> rightPredicate[pShortest]( # put pShorter, pEvenShorter or pShortest here, instead of p (they are all equivalent)
+            repeat(inputRules)
     )
-    dg = DG(graphDatabase=inputGraphs)
-    dg.build().execute(strat)
+)
+dg = DG(graphDatabase=inputGraphs)
+dg.build().execute(strat)
 
+for power_set in enzymes:
+    
     # This is from pathway.py
     flow = Flow(dg)
     flow.addSource(ribuloseP)
     flow.addSource(water)
     flow.addConstraint(inFlow[ribuloseP] == 60) # ideal would be to get 50 of fructose
+    for e in dg.edges:
+        for rule in e.rules:
+            if rule not in power_set:
+                flow.addConstraint(isEdgeUsed[e] == 0)
     # flow.addConstraint(inFlow[water] == 1)
     flow.addSink(fructoseP)
     flow.addConstraint(outFlow[fructoseP] >= 1)
@@ -61,21 +64,15 @@ for set in enzymes:
     #   if jfiohfaohaio:
     #   break
     
-    
-    print("For this set of enzymes: ", inputRules)
-    flow.solutions.list()
-    good_enzymes.append(inputRules)
-
-    print("For this set of enzymes we obtained %s solution/s" % len(flow.solutions))
-    
-    postSection("Enzymes: %s " % inputRules)
-    flowPrinter = FlowPrinter()
-    flowPrinter.printUnfiltered = False
-    flow.solutions.print()
-        
     if (len(flow.solutions) == 0):
-        bad_enzymes.append(inputRules)
+        bad_enzymes.append(power_set)
         continue
+    else:
+        good_enzymes.append(power_set)
+        post.summarySection("Enzymes: %s " % power_set)
+        flowPrinter = FlowPrinter()
+        flowPrinter.printUnfiltered = False
+        flow.solutions.print()       
     
 for x in good_enzymes:
     print(x)

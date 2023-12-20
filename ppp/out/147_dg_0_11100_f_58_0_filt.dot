@@ -1,0 +1,474 @@
+digraph g {
+// id = 0, graphName = Ribulose-5-Phosphate
+"0-0" [ shape=ellipse label="Ribulose-5-Phosphate" image="out/019_g_0_11311100.svg" ];
+// id = 1, graphName = H2O
+"1-0" [ shape=ellipse label="H2O" image="out/078_g_1_11311100.svg" ];
+// id = 2, graphName = p_{0,0}
+// id = 4, graphName = p_{0,1}
+"4-0" [ shape=ellipse label="p_{0,1}" image="out/080_g_5_11311100.svg" ];
+// id = 5, graphName = p_{0,2}
+"5-0" [ shape=ellipse label="p_{0,2}" image="out/119_g_6_11311100.svg" ];
+// id = 7, graphName = p_{0,3}
+"7-0" [ shape=ellipse label="p_{0,3}" image="out/082_g_9_11311100.svg" ];
+// id = 10, graphName = p_{0,4}
+"10-0" [ shape=ellipse label="p_{0,4}" image="out/057_g_12_11311100.svg" ];
+// id = 11, graphName = p_{0,5}
+// id = 13, graphName = p_{0,6}
+"13-0" [ shape=ellipse label="p_{0,6}" image="out/025_g_17_11311100.svg" ];
+// id = 15, graphName = p_{0,7}
+// id = 16, graphName = p_{0,8}
+// id = 18, graphName = p_{0,9}
+// id = 21, graphName = p_{0,10}
+// id = 24, graphName = p_{0,11}
+// id = 27, graphName = p_{0,12}
+"27-0" [ shape=ellipse label="p_{0,12}" image="out/086_g_43_11311100.svg" ];
+// id = 29, graphName = p_{0,13}
+// id = 31, graphName = p_{0,14}
+"31-0" [ shape=ellipse label="p_{0,14}" image="out/088_g_47_11311100.svg" ];
+// id = 33, graphName = p_{0,15}
+// id = 42, graphName = p_{0,16}
+// id = 44, graphName = p_{0,17}
+// id = 57, graphName = p_{0,18}
+"57-0" [ shape=ellipse label="p_{0,18}" image="out/070_g_123_11311100.svg" ];
+// id = 58, graphName = p_{0,19}
+"58-0" [ shape=ellipse label="p_{0,19}" image="out/046_g_124_11311100.svg" ];
+// id = 63, graphName = p_{0,20}
+"63-0" [ shape=ellipse label="p_{0,20}" image="out/059_g_139_11311100.svg" ];
+// id = 68, graphName = Fructose-6-Phosphate
+"68-0" [ shape=ellipse label="Fructose-6-Phosphate" image="out/031_g_2_11311100.svg" ];
+// id = 83, graphName = p_{0,21}
+// id = 86, graphName = p_{0,22}
+// id = 88, graphName = p_{0,23}
+// id = 91, graphName = p_{0,24}
+// id = 93, graphName = p_{0,25}
+// id = 95, graphName = p_{0,26}
+"95-0" [ shape=ellipse label="p_{0,26}" image="out/113_g_231_11311100.svg" ];
+// id = 97, graphName = p_{0,27}
+// id = 99, graphName = p_{0,28}
+// id = 104, graphName = p_{0,29}
+// id = 115, graphName = p_{0,30}
+// id = 117, graphName = p_{0,31}
+"117-0" [ shape=ellipse label="p_{0,31}" image="out/072_g_278_11311100.svg" ];
+// id = 126, graphName = p_{0,32}
+"126-0" [ shape=ellipse label="p_{0,32}" image="out/092_g_401_11311100.svg" ];
+// id = 258, graphName = p_{0,33}
+// id = 260, graphName = p_{0,34}
+// id = 262, graphName = p_{0,35}
+// id = 264, graphName = p_{0,36}
+// id = 266, graphName = p_{0,37}
+// id = 268, graphName = p_{0,38}
+// id = 270, graphName = p_{0,39}
+// id = 272, graphName = p_{0,40}
+// id = 275, graphName = p_{0,41}
+// id = 277, graphName = p_{0,42}
+// id = 279, graphName = p_{0,43}
+// id = 281, graphName = p_{0,44}
+// id = 283, graphName = p_{0,45}
+// id = 285, graphName = p_{0,46}
+// id = 287, graphName = p_{0,47}
+// id = 289, graphName = p_{0,48}
+// id = 291, graphName = p_{0,49}
+// id = 293, graphName = p_{0,50}
+// id = 295, graphName = p_{0,51}
+// id = 297, graphName = p_{0,52}
+// id = 356, graphName = p_{0,53}
+// id = 359, graphName = p_{0,54}
+// id = 361, graphName = p_{0,55}
+// id = 107{ 'H2O' 'p_{0,6}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,4}' }
+"107-0" [ shape=box label="f 45, r_{5}" ];
+// id = 133{ 'p_{0,4}' 'p_{0,12}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,32}' }
+"133-0" [ shape=box label="f 30, r_{2}" ];
+// id = 174{ 'p_{0,3}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,14}' 'p_{0,31}' }
+"174-0" [ shape=box label="f 30, r_{2}" ];
+// id = 183{ 'Ribulose-5-Phosphate' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,6}' }
+"183-0" [ shape=box label="f 60, r_{2}" ];
+// id = 191{ 'Fructose-6-Phosphate' 'p_{0,26}' }, 'Transketolase', { 'p_{0,19}' 'p_{0,20}' }
+"191-0" [ shape=box label="f 60, r_{2}" ];
+// id = 256{ 'p_{0,6}' 'p_{0,12}' }, 'Aldolase', { 'Fructose-6-Phosphate' }
+"256-0" [ shape=box label="f 15, r_{4}" ];
+// id = 328{ 'p_{0,20}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,18}' 'p_{0,26}' }
+"328-0" [ shape=box label="f 30, r_{2}" ];
+// id = 339{ 'p_{0,20}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,12}' 'p_{0,26}' }
+"339-0" [ shape=box label="f 30, r_{2}" ];
+// id = 3{ 'Ribulose-5-Phosphate' }, 'Aldose-Ketose <-', { 'p_{0,0}' }
+// id = 6{ 'Ribulose-5-Phosphate' 'H2O' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,2}' }
+// id = 8{ 'p_{0,2}' }, 'Aldose-Ketose <-', { 'p_{0,3}' }
+"5-0" -> "7-0" [ label="f 30, r_{0}" ];
+// id = 9{ 'p_{0,0}' }, 'Aldose-Ketose ->', { 'Ribulose-5-Phosphate' }
+// id = 12{ 'p_{0,0}' 'p_{0,2}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,5}' }
+// id = 14{ 'Ribulose-5-Phosphate' 'p_{0,0}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,6}' }
+// id = 17{ 'p_{0,0}' 'p_{0,2}' }, 'Transaldolase', { 'p_{0,7}' 'p_{0,8}' }
+// id = 19{ 'Ribulose-5-Phosphate' 'p_{0,0}' }, 'Transaldolase', { 'p_{0,8}' 'p_{0,9}' }
+// id = 20{ 'H2O' 'p_{0,0}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,3}' }
+// id = 22{ 'p_{0,5}' }, 'Aldose-Ketose <-', { 'p_{0,10}' }
+// id = 23{ 'p_{0,7}' }, 'Aldose-Ketose <-', { 'p_{0,7}' }
+// id = 25{ 'p_{0,8}' }, 'Aldose-Ketose <-', { 'p_{0,11}' }
+// id = 26{ 'p_{0,3}' }, 'Aldose-Ketose ->', { 'p_{0,2}' }
+// id = 28{ 'p_{0,4}' }, 'Aldose-Ketose ->', { 'p_{0,12}' }
+"10-0" -> "27-0" [ label="f 15, r_{1}" ];
+// id = 30{ 'p_{0,6}' }, 'Aldose-Ketose ->', { 'p_{0,13}' }
+// id = 32{ 'p_{0,3}' 'p_{0,5}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,14}' }
+// id = 34{ 'p_{0,3}' 'p_{0,8}' }, 'Transketolase', { 'p_{0,14}' 'p_{0,15}' }
+// id = 35{ 'p_{0,2}' 'p_{0,3}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,14}' }
+// id = 36{ 'Ribulose-5-Phosphate' 'p_{0,3}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,14}' }
+// id = 37{ 'p_{0,4}' 'p_{0,5}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,2}' }
+// id = 38{ 'p_{0,4}' 'p_{0,8}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,15}' }
+// id = 39{ 'p_{0,2}' 'p_{0,4}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,4}' }
+// id = 40{ 'Ribulose-5-Phosphate' 'p_{0,4}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,6}' }
+// id = 41{ 'p_{0,5}' 'p_{0,6}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,0}' }
+// id = 43{ 'p_{0,5}' 'p_{0,7}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,16}' }
+// id = 45{ 'p_{0,5}' 'p_{0,9}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,17}' }
+// id = 46{ 'p_{0,0}' 'p_{0,5}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,5}' }
+// id = 47{ 'p_{0,6}' 'p_{0,8}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,15}' }
+// id = 48{ 'p_{0,2}' 'p_{0,6}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,4}' }
+// id = 49{ 'Ribulose-5-Phosphate' 'p_{0,6}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,6}' }
+// id = 50{ 'p_{0,7}' 'p_{0,8}' }, 'Transketolase', { 'p_{0,15}' 'p_{0,16}' }
+// id = 51{ 'p_{0,2}' 'p_{0,7}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,16}' }
+// id = 52{ 'Ribulose-5-Phosphate' 'p_{0,7}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,16}' }
+// id = 53{ 'p_{0,8}' 'p_{0,9}' }, 'Transketolase', { 'p_{0,15}' 'p_{0,17}' }
+// id = 54{ 'p_{0,0}' 'p_{0,8}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,15}' }
+// id = 55{ 'p_{0,2}' 'p_{0,9}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,17}' }
+// id = 56{ 'Ribulose-5-Phosphate' 'p_{0,9}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,17}' }
+// id = 59{ 'p_{0,3}' 'p_{0,5}' }, 'Transaldolase', { 'p_{0,18}' 'p_{0,19}' }
+// id = 60{ 'p_{0,3}' 'p_{0,8}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,18}' }
+// id = 61{ 'p_{0,2}' 'p_{0,3}' }, 'Transaldolase', { 'p_{0,7}' 'p_{0,18}' }
+// id = 62{ 'Ribulose-5-Phosphate' 'p_{0,3}' }, 'Transaldolase', { 'p_{0,9}' 'p_{0,18}' }
+// id = 64{ 'p_{0,4}' 'p_{0,5}' }, 'Transaldolase', { 'p_{0,19}' 'p_{0,20}' }
+// id = 65{ 'p_{0,4}' 'p_{0,8}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,20}' }
+// id = 66{ 'p_{0,2}' 'p_{0,4}' }, 'Transaldolase', { 'p_{0,7}' 'p_{0,20}' }
+// id = 67{ 'Ribulose-5-Phosphate' 'p_{0,4}' }, 'Transaldolase', { 'p_{0,9}' 'p_{0,20}' }
+// id = 69{ 'p_{0,5}' 'p_{0,6}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,19}' }
+// id = 70{ 'p_{0,5}' 'p_{0,7}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,19}' }
+// id = 71{ 'p_{0,5}' 'p_{0,9}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,19}' }
+// id = 72{ 'p_{0,0}' 'p_{0,5}' }, 'Transaldolase', { 'p_{0,8}' 'p_{0,19}' }
+// id = 73{ 'p_{0,6}' 'p_{0,8}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,0}' }
+// id = 74{ 'p_{0,2}' 'p_{0,6}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,7}' }
+// id = 75{ 'Ribulose-5-Phosphate' 'p_{0,6}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,9}' }
+// id = 76{ 'p_{0,7}' 'p_{0,8}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,2}' }
+// id = 77{ 'p_{0,2}' 'p_{0,7}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,7}' }
+// id = 78{ 'Ribulose-5-Phosphate' 'p_{0,7}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,9}' }
+// id = 79{ 'p_{0,8}' 'p_{0,9}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,0}' }
+// id = 80{ 'p_{0,0}' 'p_{0,8}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,8}' }
+// id = 81{ 'p_{0,2}' 'p_{0,9}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,7}' }
+// id = 82{ 'Ribulose-5-Phosphate' 'p_{0,9}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,9}' }
+// id = 84{ 'p_{0,3}' 'p_{0,7}' }, 'Aldolase', { 'p_{0,21}' }
+// id = 85{ 'p_{0,4}' 'p_{0,7}' }, 'Aldolase', { 'p_{0,3}' }
+// id = 87{ 'p_{0,2}' 'p_{0,4}' }, 'Aldolase', { 'p_{0,22}' }
+// id = 89{ 'Ribulose-5-Phosphate' 'p_{0,4}' }, 'Aldolase', { 'p_{0,23}' }
+// id = 90{ 'p_{0,6}' 'p_{0,7}' }, 'Aldolase', { 'p_{0,0}' }
+// id = 92{ 'p_{0,2}' 'p_{0,6}' }, 'Aldolase', { 'p_{0,24}' }
+// id = 94{ 'Ribulose-5-Phosphate' 'p_{0,6}' }, 'Aldolase', { 'p_{0,25}' }
+// id = 96{ 'p_{0,7}' 'p_{0,7}' }, 'Aldolase', { 'p_{0,26}' }
+// id = 98{ 'p_{0,2}' 'p_{0,7}' }, 'Aldolase', { 'p_{0,27}' }
+// id = 100{ 'Ribulose-5-Phosphate' 'p_{0,7}' }, 'Aldolase', { 'p_{0,28}' }
+// id = 101{ 'p_{0,7}' 'p_{0,9}' }, 'Aldolase', { 'p_{0,19}' }
+// id = 102{ 'p_{0,0}' 'p_{0,7}' }, 'Aldolase', { 'p_{0,10}' }
+// id = 103{ 'p_{0,2}' 'p_{0,9}' }, 'Aldolase', { 'p_{0,28}' }
+// id = 105{ 'Ribulose-5-Phosphate' 'p_{0,9}' }, 'Aldolase', { 'p_{0,29}' }
+// id = 106{ 'H2O' 'p_{0,5}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,14}' }
+// id = 107{ 'H2O' 'p_{0,6}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,4}' }
+"1-0" -> "107-0" [ ];
+"13-0" -> "107-0" [ ];
+"107-0" -> "4-0" [ ];
+"107-0" -> "10-0" [ ];
+// id = 108{ 'H2O' 'p_{0,8}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,18}' }
+// id = 109{ 'H2O' 'p_{0,9}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,7}' }
+// id = 110{ 'p_{0,12}' }, 'Aldose-Ketose <-', { 'p_{0,4}' }
+// id = 111{ 'p_{0,13}' }, 'Aldose-Ketose <-', { 'p_{0,6}' }
+// id = 112{ 'p_{0,14}' }, 'Aldose-Ketose <-', { 'p_{0,21}' }
+// id = 113{ 'p_{0,16}' }, 'Aldose-Ketose <-', { 'p_{0,26}' }
+// id = 114{ 'p_{0,17}' }, 'Aldose-Ketose <-', { 'p_{0,19}' }
+// id = 116{ 'p_{0,18}' }, 'Aldose-Ketose <-', { 'p_{0,30}' }
+// id = 118{ 'p_{0,20}' }, 'Aldose-Ketose <-', { 'p_{0,31}' }
+// id = 119{ 'Fructose-6-Phosphate' }, 'Aldose-Ketose <-', { 'p_{0,15}' }
+// id = 120{ 'p_{0,10}' }, 'Aldose-Ketose ->', { 'p_{0,5}' }
+// id = 121{ 'p_{0,11}' }, 'Aldose-Ketose ->', { 'p_{0,8}' }
+// id = 122{ 'p_{0,15}' }, 'Aldose-Ketose ->', { 'Fructose-6-Phosphate' }
+// id = 123{ 'p_{0,19}' }, 'Aldose-Ketose ->', { 'p_{0,17}' }
+// id = 124{ 'p_{0,21}' }, 'Aldose-Ketose ->', { 'p_{0,14}' }
+// id = 125{ 'p_{0,26}' }, 'Aldose-Ketose ->', { 'p_{0,16}' }
+// id = 127{ 'p_{0,12}' 'p_{0,15}' }, 'Transketolase', { 'p_{0,8}' 'p_{0,32}' }
+// id = 128{ 'p_{0,12}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,32}' }
+// id = 129{ 'p_{0,12}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,20}' 'p_{0,32}' }
+// id = 130{ 'p_{0,9}' 'p_{0,12}' }, 'Transketolase', { 'p_{0,17}' 'p_{0,32}' }
+// id = 131{ 'p_{0,0}' 'p_{0,12}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,32}' }
+// id = 132{ 'p_{0,3}' 'p_{0,12}' }, 'Transketolase', { 'p_{0,14}' 'p_{0,32}' }
+// id = 133{ 'p_{0,4}' 'p_{0,12}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,32}' }
+"10-0" -> "133-0" [ ];
+"27-0" -> "133-0" [ ];
+"133-0" -> "5-0" [ ];
+"133-0" -> "126-0" [ ];
+// id = 134{ 'p_{0,6}' 'p_{0,12}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,32}' }
+// id = 135{ 'p_{0,7}' 'p_{0,12}' }, 'Transketolase', { 'p_{0,16}' 'p_{0,32}' }
+// id = 136{ 'p_{0,14}' 'p_{0,15}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,8}' }
+// id = 137{ 'p_{0,14}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,3}' }
+// id = 138{ 'p_{0,14}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,20}' }
+// id = 139{ 'p_{0,9}' 'p_{0,14}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,17}' }
+// id = 140{ 'p_{0,0}' 'p_{0,14}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,5}' }
+// id = 141{ 'p_{0,3}' 'p_{0,14}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,14}' }
+// id = 142{ 'p_{0,4}' 'p_{0,14}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,3}' }
+// id = 143{ 'p_{0,6}' 'p_{0,14}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,3}' }
+// id = 144{ 'p_{0,7}' 'p_{0,14}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,16}' }
+// id = 145{ 'p_{0,15}' 'p_{0,16}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,8}' }
+// id = 146{ 'p_{0,15}' 'p_{0,17}' }, 'Transketolase', { 'p_{0,8}' 'p_{0,9}' }
+// id = 147{ 'p_{0,15}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,8}' 'p_{0,31}' }
+// id = 148{ 'p_{0,15}' 'p_{0,20}' }, 'Transketolase', { 'p_{0,8}' 'p_{0,26}' }
+// id = 149{ 'Fructose-6-Phosphate' 'p_{0,15}' }, 'Transketolase', { 'p_{0,8}' 'p_{0,19}' }
+// id = 150{ 'p_{0,2}' 'p_{0,15}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,8}' }
+// id = 151{ 'p_{0,5}' 'p_{0,15}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,8}' }
+// id = 152{ 'p_{0,8}' 'p_{0,15}' }, 'Transketolase', { 'p_{0,8}' 'p_{0,15}' }
+// id = 153{ 'Ribulose-5-Phosphate' 'p_{0,15}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,8}' }
+// id = 154{ 'p_{0,16}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,7}' }
+// id = 155{ 'p_{0,16}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,20}' }
+// id = 156{ 'p_{0,9}' 'p_{0,16}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,17}' }
+// id = 157{ 'p_{0,0}' 'p_{0,16}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,7}' }
+// id = 158{ 'p_{0,3}' 'p_{0,16}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,14}' }
+// id = 159{ 'p_{0,4}' 'p_{0,16}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,7}' }
+// id = 160{ 'p_{0,6}' 'p_{0,16}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,7}' }
+// id = 161{ 'p_{0,7}' 'p_{0,16}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,16}' }
+// id = 162{ 'p_{0,17}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,9}' }
+// id = 163{ 'p_{0,17}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,9}' 'p_{0,20}' }
+// id = 164{ 'p_{0,9}' 'p_{0,17}' }, 'Transketolase', { 'p_{0,9}' 'p_{0,17}' }
+// id = 165{ 'p_{0,0}' 'p_{0,17}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,9}' }
+// id = 166{ 'p_{0,3}' 'p_{0,17}' }, 'Transketolase', { 'p_{0,9}' 'p_{0,14}' }
+// id = 167{ 'p_{0,4}' 'p_{0,17}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,9}' }
+// id = 168{ 'p_{0,6}' 'p_{0,17}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,9}' }
+// id = 169{ 'p_{0,7}' 'p_{0,17}' }, 'Transketolase', { 'p_{0,9}' 'p_{0,16}' }
+// id = 170{ 'p_{0,18}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,31}' }
+// id = 171{ 'p_{0,18}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,20}' 'p_{0,31}' }
+// id = 172{ 'p_{0,9}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,17}' 'p_{0,31}' }
+// id = 173{ 'p_{0,0}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,31}' }
+// id = 174{ 'p_{0,3}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,14}' 'p_{0,31}' }
+"7-0" -> "174-0" [ ];
+"57-0" -> "174-0" [ ];
+"174-0" -> "31-0" [ ];
+"174-0" -> "117-0" [ ];
+// id = 175{ 'p_{0,4}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,31}' }
+// id = 176{ 'p_{0,6}' 'p_{0,18}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,31}' }
+// id = 177{ 'p_{0,7}' 'p_{0,18}' }, 'Transketolase', { 'p_{0,16}' 'p_{0,31}' }
+// id = 178{ 'p_{0,19}' 'p_{0,20}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,26}' }
+// id = 179{ 'Fructose-6-Phosphate' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,19}' }
+// id = 180{ 'p_{0,2}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,4}' }
+// id = 181{ 'p_{0,5}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,0}' }
+// id = 182{ 'p_{0,8}' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,15}' }
+// id = 183{ 'Ribulose-5-Phosphate' 'p_{0,19}' }, 'Transketolase', { 'Fructose-6-Phosphate' 'p_{0,6}' }
+"0-0" -> "183-0" [ ];
+"58-0" -> "183-0" [ ];
+"183-0" -> "13-0" [ ];
+"183-0" -> "68-0" [ ];
+// id = 184{ 'p_{0,20}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,20}' 'p_{0,26}' }
+// id = 185{ 'p_{0,9}' 'p_{0,20}' }, 'Transketolase', { 'p_{0,17}' 'p_{0,26}' }
+// id = 186{ 'p_{0,0}' 'p_{0,20}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,26}' }
+// id = 187{ 'p_{0,3}' 'p_{0,20}' }, 'Transketolase', { 'p_{0,14}' 'p_{0,26}' }
+// id = 188{ 'p_{0,4}' 'p_{0,20}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,26}' }
+// id = 189{ 'p_{0,6}' 'p_{0,20}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,26}' }
+// id = 190{ 'p_{0,7}' 'p_{0,20}' }, 'Transketolase', { 'p_{0,16}' 'p_{0,26}' }
+// id = 191{ 'Fructose-6-Phosphate' 'p_{0,26}' }, 'Transketolase', { 'p_{0,19}' 'p_{0,20}' }
+"68-0" -> "191-0" [ ];
+"95-0" -> "191-0" [ ];
+"191-0" -> "58-0" [ ];
+"191-0" -> "63-0" [ ];
+// id = 192{ 'p_{0,2}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,20}' }
+// id = 193{ 'p_{0,5}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,20}' }
+// id = 194{ 'p_{0,8}' 'p_{0,26}' }, 'Transketolase', { 'p_{0,15}' 'p_{0,20}' }
+// id = 195{ 'Ribulose-5-Phosphate' 'p_{0,26}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,20}' }
+// id = 196{ 'Fructose-6-Phosphate' 'p_{0,9}' }, 'Transketolase', { 'p_{0,17}' 'p_{0,19}' }
+// id = 197{ 'Fructose-6-Phosphate' 'p_{0,0}' }, 'Transketolase', { 'p_{0,5}' 'p_{0,19}' }
+// id = 198{ 'Fructose-6-Phosphate' 'p_{0,3}' }, 'Transketolase', { 'p_{0,14}' 'p_{0,19}' }
+// id = 199{ 'Fructose-6-Phosphate' 'p_{0,4}' }, 'Transketolase', { 'p_{0,2}' 'p_{0,19}' }
+// id = 200{ 'Fructose-6-Phosphate' 'p_{0,6}' }, 'Transketolase', { 'Ribulose-5-Phosphate' 'p_{0,19}' }
+// id = 201{ 'Fructose-6-Phosphate' 'p_{0,7}' }, 'Transketolase', { 'p_{0,16}' 'p_{0,19}' }
+// id = 202{ 'p_{0,14}' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,5}' 'p_{0,26}' }
+// id = 203{ 'p_{0,14}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,14}' 'p_{0,26}' }
+// id = 204{ 'p_{0,9}' 'p_{0,14}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,26}' }
+// id = 205{ 'p_{0,0}' 'p_{0,14}' }, 'Transaldolase', { 'p_{0,8}' 'p_{0,26}' }
+// id = 206{ 'p_{0,3}' 'p_{0,14}' }, 'Transaldolase', { 'p_{0,18}' 'p_{0,26}' }
+// id = 207{ 'p_{0,4}' 'p_{0,14}' }, 'Transaldolase', { 'p_{0,20}' 'p_{0,26}' }
+// id = 208{ 'p_{0,6}' 'p_{0,14}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,26}' }
+// id = 209{ 'p_{0,7}' 'p_{0,14}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,26}' }
+// id = 210{ 'p_{0,16}' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,5}' 'p_{0,32}' }
+// id = 211{ 'p_{0,16}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,14}' 'p_{0,32}' }
+// id = 212{ 'p_{0,9}' 'p_{0,16}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,32}' }
+// id = 213{ 'p_{0,0}' 'p_{0,16}' }, 'Transaldolase', { 'p_{0,8}' 'p_{0,32}' }
+// id = 214{ 'p_{0,3}' 'p_{0,16}' }, 'Transaldolase', { 'p_{0,18}' 'p_{0,32}' }
+// id = 215{ 'p_{0,4}' 'p_{0,16}' }, 'Transaldolase', { 'p_{0,20}' 'p_{0,32}' }
+// id = 216{ 'p_{0,6}' 'p_{0,16}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,32}' }
+// id = 217{ 'p_{0,7}' 'p_{0,16}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,32}' }
+// id = 218{ 'p_{0,18}' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,3}' 'p_{0,5}' }
+// id = 219{ 'p_{0,18}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,3}' 'p_{0,14}' }
+// id = 220{ 'p_{0,9}' 'p_{0,18}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,3}' }
+// id = 221{ 'p_{0,0}' 'p_{0,18}' }, 'Transaldolase', { 'p_{0,3}' 'p_{0,8}' }
+// id = 222{ 'p_{0,3}' 'p_{0,18}' }, 'Transaldolase', { 'p_{0,3}' 'p_{0,18}' }
+// id = 223{ 'p_{0,4}' 'p_{0,18}' }, 'Transaldolase', { 'p_{0,3}' 'p_{0,20}' }
+// id = 224{ 'p_{0,6}' 'p_{0,18}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,3}' }
+// id = 225{ 'p_{0,7}' 'p_{0,18}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,3}' }
+// id = 226{ 'p_{0,19}' 'p_{0,20}' }, 'Transaldolase', { 'p_{0,4}' 'p_{0,5}' }
+// id = 227{ 'Fructose-6-Phosphate' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,5}' 'p_{0,6}' }
+// id = 228{ 'p_{0,2}' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,5}' 'p_{0,7}' }
+// id = 229{ 'p_{0,5}' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,5}' 'p_{0,19}' }
+// id = 230{ 'p_{0,8}' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,5}' }
+// id = 231{ 'Ribulose-5-Phosphate' 'p_{0,19}' }, 'Transaldolase', { 'p_{0,5}' 'p_{0,9}' }
+// id = 232{ 'p_{0,20}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,4}' 'p_{0,14}' }
+// id = 233{ 'p_{0,9}' 'p_{0,20}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,4}' }
+// id = 234{ 'p_{0,0}' 'p_{0,20}' }, 'Transaldolase', { 'p_{0,4}' 'p_{0,8}' }
+// id = 235{ 'p_{0,3}' 'p_{0,20}' }, 'Transaldolase', { 'p_{0,4}' 'p_{0,18}' }
+// id = 236{ 'p_{0,4}' 'p_{0,20}' }, 'Transaldolase', { 'p_{0,4}' 'p_{0,20}' }
+// id = 237{ 'p_{0,6}' 'p_{0,20}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,4}' }
+// id = 238{ 'p_{0,7}' 'p_{0,20}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,4}' }
+// id = 239{ 'Fructose-6-Phosphate' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,6}' 'p_{0,14}' }
+// id = 240{ 'p_{0,2}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,7}' 'p_{0,14}' }
+// id = 241{ 'p_{0,5}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,14}' 'p_{0,19}' }
+// id = 242{ 'p_{0,8}' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,14}' }
+// id = 243{ 'Ribulose-5-Phosphate' 'p_{0,26}' }, 'Transaldolase', { 'p_{0,9}' 'p_{0,14}' }
+// id = 244{ 'Fructose-6-Phosphate' 'p_{0,9}' }, 'Transaldolase', { 'Ribulose-5-Phosphate' 'p_{0,6}' }
+// id = 245{ 'Fructose-6-Phosphate' 'p_{0,0}' }, 'Transaldolase', { 'p_{0,6}' 'p_{0,8}' }
+// id = 246{ 'Fructose-6-Phosphate' 'p_{0,3}' }, 'Transaldolase', { 'p_{0,6}' 'p_{0,18}' }
+// id = 247{ 'Fructose-6-Phosphate' 'p_{0,4}' }, 'Transaldolase', { 'p_{0,6}' 'p_{0,20}' }
+// id = 248{ 'Fructose-6-Phosphate' 'p_{0,6}' }, 'Transaldolase', { 'Fructose-6-Phosphate' 'p_{0,6}' }
+// id = 249{ 'Fructose-6-Phosphate' 'p_{0,7}' }, 'Transaldolase', { 'p_{0,2}' 'p_{0,6}' }
+// id = 250{ 'p_{0,12}' 'p_{0,19}' }, 'Aldolase', { 'p_{0,5}' }
+// id = 251{ 'p_{0,12}' 'p_{0,26}' }, 'Aldolase', { 'p_{0,14}' }
+// id = 252{ 'p_{0,9}' 'p_{0,12}' }, 'Aldolase', { 'Ribulose-5-Phosphate' }
+// id = 253{ 'p_{0,0}' 'p_{0,12}' }, 'Aldolase', { 'p_{0,8}' }
+// id = 254{ 'p_{0,3}' 'p_{0,12}' }, 'Aldolase', { 'p_{0,18}' }
+// id = 255{ 'p_{0,4}' 'p_{0,12}' }, 'Aldolase', { 'p_{0,20}' }
+// id = 256{ 'p_{0,6}' 'p_{0,12}' }, 'Aldolase', { 'Fructose-6-Phosphate' }
+"13-0" -> "256-0" [ ];
+"27-0" -> "256-0" [ ];
+"256-0" -> "68-0" [ ];
+// id = 257{ 'p_{0,7}' 'p_{0,12}' }, 'Aldolase', { 'p_{0,2}' }
+// id = 259{ 'p_{0,13}' 'p_{0,19}' }, 'Aldolase', { 'p_{0,33}' }
+// id = 261{ 'p_{0,13}' 'p_{0,26}' }, 'Aldolase', { 'p_{0,34}' }
+// id = 263{ 'p_{0,9}' 'p_{0,13}' }, 'Aldolase', { 'p_{0,35}' }
+// id = 265{ 'p_{0,0}' 'p_{0,13}' }, 'Aldolase', { 'p_{0,36}' }
+// id = 267{ 'p_{0,3}' 'p_{0,13}' }, 'Aldolase', { 'p_{0,37}' }
+// id = 269{ 'p_{0,4}' 'p_{0,13}' }, 'Aldolase', { 'p_{0,38}' }
+// id = 271{ 'p_{0,6}' 'p_{0,13}' }, 'Aldolase', { 'p_{0,39}' }
+// id = 273{ 'p_{0,7}' 'p_{0,13}' }, 'Aldolase', { 'p_{0,40}' }
+// id = 274{ 'p_{0,7}' 'p_{0,15}' }, 'Aldolase', { 'p_{0,11}' }
+// id = 276{ 'p_{0,16}' 'p_{0,19}' }, 'Aldolase', { 'p_{0,41}' }
+// id = 278{ 'p_{0,16}' 'p_{0,26}' }, 'Aldolase', { 'p_{0,42}' }
+// id = 280{ 'p_{0,9}' 'p_{0,16}' }, 'Aldolase', { 'p_{0,43}' }
+// id = 282{ 'p_{0,4}' 'p_{0,16}' }, 'Aldolase', { 'p_{0,44}' }
+// id = 284{ 'p_{0,6}' 'p_{0,16}' }, 'Aldolase', { 'p_{0,45}' }
+// id = 286{ 'p_{0,7}' 'p_{0,16}' }, 'Aldolase', { 'p_{0,46}' }
+// id = 288{ 'p_{0,17}' 'p_{0,19}' }, 'Aldolase', { 'p_{0,47}' }
+// id = 290{ 'p_{0,17}' 'p_{0,26}' }, 'Aldolase', { 'p_{0,48}' }
+// id = 292{ 'p_{0,9}' 'p_{0,17}' }, 'Aldolase', { 'p_{0,49}' }
+// id = 294{ 'p_{0,4}' 'p_{0,17}' }, 'Aldolase', { 'p_{0,50}' }
+// id = 296{ 'p_{0,6}' 'p_{0,17}' }, 'Aldolase', { 'p_{0,51}' }
+// id = 298{ 'p_{0,7}' 'p_{0,17}' }, 'Aldolase', { 'p_{0,52}' }
+// id = 299{ 'p_{0,7}' 'p_{0,19}' }, 'Aldolase', { 'p_{0,15}' }
+// id = 300{ 'p_{0,9}' 'p_{0,20}' }, 'Aldolase', { 'p_{0,23}' }
+// id = 301{ 'p_{0,7}' 'p_{0,20}' }, 'Aldolase', { 'p_{0,22}' }
+// id = 302{ 'p_{0,7}' 'p_{0,26}' }, 'Aldolase', { 'p_{0,31}' }
+// id = 303{ 'Fructose-6-Phosphate' 'p_{0,9}' }, 'Aldolase', { 'p_{0,25}' }
+// id = 304{ 'Fructose-6-Phosphate' 'p_{0,7}' }, 'Aldolase', { 'p_{0,24}' }
+// id = 305{ 'H2O' 'p_{0,10}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,21}' }
+// id = 306{ 'H2O' 'p_{0,11}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,30}' }
+// id = 307{ 'H2O' 'p_{0,13}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,12}' }
+// id = 308{ 'H2O' 'p_{0,15}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,31}' }
+// id = 309{ 'H2O' 'p_{0,17}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,16}' }
+// id = 310{ 'H2O' 'p_{0,19}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,26}' }
+// id = 311{ 'H2O' 'p_{0,23}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,22}' }
+// id = 312{ 'H2O' 'p_{0,24}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,22}' }
+// id = 313{ 'H2O' 'p_{0,25}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,24}' }
+// id = 314{ 'H2O' 'p_{0,25}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,23}' }
+// id = 315{ 'H2O' 'p_{0,28}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,27}' }
+// id = 316{ 'H2O' 'p_{0,29}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,28}' }
+// id = 317{ 'H2O' 'Fructose-6-Phosphate' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,20}' }
+// id = 318{ 'p_{0,30}' }, 'Aldose-Ketose ->', { 'p_{0,18}' }
+// id = 319{ 'p_{0,31}' }, 'Aldose-Ketose ->', { 'p_{0,20}' }
+// id = 320{ 'p_{0,2}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,18}' }
+// id = 321{ 'p_{0,5}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,18}' }
+// id = 322{ 'p_{0,8}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,15}' 'p_{0,18}' }
+// id = 323{ 'p_{0,12}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,18}' 'p_{0,32}' }
+// id = 324{ 'p_{0,14}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,18}' }
+// id = 325{ 'p_{0,16}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,18}' }
+// id = 326{ 'p_{0,17}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,9}' 'p_{0,18}' }
+// id = 327{ 'p_{0,18}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,18}' 'p_{0,31}' }
+// id = 328{ 'p_{0,20}' 'p_{0,31}' }, 'Transketolase', { 'p_{0,18}' 'p_{0,26}' }
+"63-0" -> "328-0" [ ];
+"117-0" -> "328-0" [ ];
+"328-0" -> "57-0" [ ];
+"328-0" -> "95-0" [ ];
+// id = 329{ 'Fructose-6-Phosphate' 'p_{0,31}' }, 'Transketolase', { 'p_{0,18}' 'p_{0,19}' }
+// id = 330{ 'Ribulose-5-Phosphate' 'p_{0,31}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,18}' }
+// id = 331{ 'p_{0,2}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,4}' 'p_{0,12}' }
+// id = 332{ 'p_{0,5}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,0}' 'p_{0,12}' }
+// id = 333{ 'p_{0,8}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,12}' 'p_{0,15}' }
+// id = 334{ 'p_{0,12}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,12}' 'p_{0,32}' }
+// id = 335{ 'p_{0,14}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,3}' 'p_{0,12}' }
+// id = 336{ 'p_{0,16}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,7}' 'p_{0,12}' }
+// id = 337{ 'p_{0,17}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,9}' 'p_{0,12}' }
+// id = 338{ 'p_{0,18}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,12}' 'p_{0,31}' }
+// id = 339{ 'p_{0,20}' 'p_{0,32}' }, 'Transketolase', { 'p_{0,12}' 'p_{0,26}' }
+"63-0" -> "339-0" [ ];
+"126-0" -> "339-0" [ ];
+"339-0" -> "27-0" [ ];
+"339-0" -> "95-0" [ ];
+// id = 340{ 'Fructose-6-Phosphate' 'p_{0,32}' }, 'Transketolase', { 'p_{0,12}' 'p_{0,19}' }
+// id = 341{ 'Ribulose-5-Phosphate' 'p_{0,32}' }, 'Transketolase', { 'p_{0,6}' 'p_{0,12}' }
+// id = 342{ 'p_{0,2}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,7}' 'p_{0,16}' }
+// id = 343{ 'p_{0,5}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,16}' 'p_{0,19}' }
+// id = 344{ 'p_{0,8}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,0}' 'p_{0,16}' }
+// id = 345{ 'p_{0,14}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,16}' 'p_{0,26}' }
+// id = 346{ 'p_{0,16}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,16}' 'p_{0,32}' }
+// id = 347{ 'p_{0,18}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,3}' 'p_{0,16}' }
+// id = 348{ 'p_{0,20}' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,4}' 'p_{0,16}' }
+// id = 349{ 'Fructose-6-Phosphate' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,6}' 'p_{0,16}' }
+// id = 350{ 'Ribulose-5-Phosphate' 'p_{0,32}' }, 'Transaldolase', { 'p_{0,9}' 'p_{0,16}' }
+// id = 351{ 'p_{0,7}' 'p_{0,31}' }, 'Aldolase', { 'p_{0,30}' }
+// id = 352{ 'p_{0,2}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,46}' }
+// id = 353{ 'p_{0,5}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,41}' }
+// id = 354{ 'p_{0,7}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,4}' }
+// id = 355{ 'p_{0,12}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,16}' }
+// id = 357{ 'p_{0,13}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,53}' }
+// id = 358{ 'p_{0,14}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,42}' }
+// id = 360{ 'p_{0,16}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,54}' }
+// id = 362{ 'p_{0,17}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,55}' }
+// id = 363{ 'p_{0,20}' 'p_{0,32}' }, 'Aldolase', { 'p_{0,44}' }
+// id = 364{ 'Fructose-6-Phosphate' 'p_{0,32}' }, 'Aldolase', { 'p_{0,45}' }
+// id = 365{ 'Ribulose-5-Phosphate' 'p_{0,32}' }, 'Aldolase', { 'p_{0,43}' }
+// id = 366{ 'H2O' 'p_{0,33}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,34}' }
+// id = 367{ 'H2O' 'p_{0,33}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,5}' }
+// id = 368{ 'H2O' 'p_{0,34}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,14}' }
+// id = 369{ 'H2O' 'p_{0,35}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,40}' }
+// id = 370{ 'H2O' 'p_{0,35}' }, 'Phophohydrolase', { 'Ribulose-5-Phosphate' 'p_{0,1}' }
+// id = 371{ 'H2O' 'p_{0,36}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,37}' }
+// id = 372{ 'H2O' 'p_{0,36}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,8}' }
+// id = 373{ 'H2O' 'p_{0,37}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,18}' }
+// id = 374{ 'H2O' 'p_{0,38}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,20}' }
+// id = 375{ 'H2O' 'p_{0,39}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,38}' }
+// id = 376{ 'H2O' 'p_{0,39}' }, 'Phophohydrolase', { 'Fructose-6-Phosphate' 'p_{0,1}' }
+// id = 377{ 'H2O' 'p_{0,40}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,2}' }
+// id = 378{ 'H2O' 'p_{0,41}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,42}' }
+// id = 379{ 'H2O' 'p_{0,43}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,46}' }
+// id = 380{ 'H2O' 'p_{0,45}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,44}' }
+// id = 381{ 'H2O' 'p_{0,47}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,48}' }
+// id = 382{ 'H2O' 'p_{0,47}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,41}' }
+// id = 383{ 'H2O' 'p_{0,48}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,42}' }
+// id = 384{ 'H2O' 'p_{0,49}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,52}' }
+// id = 385{ 'H2O' 'p_{0,49}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,43}' }
+// id = 386{ 'H2O' 'p_{0,50}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,44}' }
+// id = 387{ 'H2O' 'p_{0,51}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,50}' }
+// id = 388{ 'H2O' 'p_{0,51}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,45}' }
+// id = 389{ 'H2O' 'p_{0,52}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,46}' }
+// id = 390{ 'H2O' 'p_{0,53}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,16}' }
+// id = 391{ 'H2O' 'p_{0,55}' }, 'Phophohydrolase', { 'p_{0,1}' 'p_{0,54}' }
+// inFlow/outFlow, id = 0-0, graphName = Ribulose-5-Phosphate, inFlow = 60, outFlow = 0
+"0-0-IOFlow" [ shape=point style=invis label="" ];
+"0-0-IOFlow" -> "0-0" [ label="f 60" ];
+// inFlow/outFlow, id = 1-0, graphName = H2O, inFlow = 45, outFlow = 0
+"1-0-IOFlow" [ shape=point style=invis label="" ];
+"1-0-IOFlow" -> "1-0" [ label="f 45" ];
+// inFlow/outFlow, id = 4-0, graphName = p_{0,1}, inFlow = 0, outFlow = 45
+"4-0-IOFlow" [ shape=point style=invis label="" ];
+"4-0" -> "4-0-IOFlow" [ label="f 45" ];
+// inFlow/outFlow, id = 31-0, graphName = p_{0,14}, inFlow = 0, outFlow = 30
+"31-0-IOFlow" [ shape=point style=invis label="" ];
+"31-0" -> "31-0-IOFlow" [ label="f 30" ];
+// inFlow/outFlow, id = 68-0, graphName = Fructose-6-Phosphate, inFlow = 0, outFlow = 15
+"68-0-IOFlow" [ shape=point style=invis label="" ];
+"68-0" -> "68-0-IOFlow" [ label="f 15" ];
+}
