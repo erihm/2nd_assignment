@@ -33,13 +33,13 @@ def draw_power_set_lattice(subsets_to_plot):
     graph.render(filename='power_set_lattice', format='png', cleanup=True)
 
 
-# Power sets of enzymes
+# Power set of enzymes
 enzymes = powerset(inputRules)[1:]
 
 good_enzymes = []
 solutions = []
 
-for power_set in enzymes:
+for subset in enzymes:
     
     try: # Here we want to avoid the error "Can not add null vertex as sink"
     
@@ -48,7 +48,7 @@ for power_set in enzymes:
         strat = (
             addSubset(ribuloseP, water)
             >> rightPredicate[pShortest]( # put pShorter, pEvenShorter or pShortest here, instead of p (they are all equivalent)
-                    repeat(power_set)
+                    repeat(subset)
             )
         )
         dg = DG(graphDatabase=inputGraphs)
@@ -77,41 +77,44 @@ for power_set in enzymes:
     
     if (len(flow.solutions) > 0):
         
-        good_enzymes.append(set(power_set))
-        post.summarySection("Enzymes: %s " % list(power_set))
+        good_enzymes.append(set(subset))
+        post.summarySection("Enzymes: %s " % list(subset))
         flowPrinter = FlowPrinter()
         flowPrinter.printUnfiltered = False
         flow.solutions.print()
 
-        output = flow.solutions[0].eval(outFlow[fructoseP])
-        waste = flow.solutions[0].eval(outFlow) - output
-        reactions = flow.solutions[0].eval(isEdgeUsed)
-        solutions.append([power_set, output, waste, reactions])
+        # save data for output and quality measure
+        output = flow.solutions[0].eval(outFlow[fructoseP]) # outflow of fructose
+        waste = flow.solutions[0].eval(outFlow) - output # outflow of waste = everything but fructose
+        reactions = flow.solutions[0].eval(edge) # number of reactions
+        solutions.append([subset, output, waste, round(waste / output, 4), reactions])
     
 for x in good_enzymes:
     print(x)
     
 draw_power_set_lattice(good_enzymes)
 
+# generate table with results in summary
 latex = (
-"\\newpage\n" +
-"\\section{Result}\n")
-
-latex += ("\\begin{center}\n" +
-"\\begin{longtable}{ |c|c|c|c|c| }\n" +
+#"\\newpage\n" +
+"\\section{Results}\n" +
+"\\begin{center}\n" +
+"\\begin{longtable}{ |c|c|c|c|c|c|c| }\n" +
 "\\hline\n" +
-"\#enzymes & enzymes & \#Fructose-6-Phosphate & \#waste & \#reactions \\\\\n" +
+"id & \#enzymes & enzymes & \#fructose & \#waste & \#w\\slash\#f & \#reactions \\\\\n" +
 "\\hline\n")
 
-for sol in solutions:
+j = 0
+for sol in solutions[::-1]:
     i = 0
     for en in sol[0]:
         if i < len(sol[0]) - 1:
-            latex += " & " + str(en) + " & & & \\\\\n"
+            latex += " & " + " & " + str(en) + " & & & & \\\\\n"
         else:
-            latex += str(len(sol[0])) + " & " +str(en)
+            latex += str(j) + " & " + str(len(sol[0])) + " & " + str(en)
         i += 1
-    latex += " & " + str(sol[1]) + " & " + str(sol[2]) + " & " + str(sol[3]) + "\\\\\n \\hline\n"
+    latex += " & " + str(sol[1]) + " & " + str(sol[2]) + " & " + str(sol[3]) + " & " + str(sol[4]) + "\\\\\n \\hline\n"
+    j += 1
 
 latex += ("\\end{longtable}\n" +
 "\\end{center}\n")
