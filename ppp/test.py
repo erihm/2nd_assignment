@@ -33,35 +33,15 @@ def draw_power_set_lattice(subsets_to_plot):
     graph.render(filename='power_set_lattice', format='png', cleanup=True)
 
 
+# Power sets of enzymes
 enzymes = powerset(inputRules)[1:]
 
 good_enzymes = []
-bad_enzymes = []
-
-# For NOW:
-# (E) Use the same dg for all the solutions (2-3)
-# (E) Look at which errors we get
-# (L) To access the values of the flow solution use eval() (3) Make the table solution, amount input, amount waste, amount output, num hyperedges in the solution
-# Does the quality improve with more enzymes? Is the flow more complex w. more enzymes?
-# (Optional): compare multiple solutions w. same objective value.
-# (L) Visualize lattice with values (3)
-
-# For LATER:
-# Add an explanation for the subsets that worked
-# Use another chemistry: knock?
-# Design a system w. artificial rules for illustration
-# "Waste" is the amount of carbons
-# W. more enzymes the flow might be shorter.
-
-# This part is from dg.py
-
 solutions = []
 
-# power_set = enzymes[25]
-# for u in range(1):
 for power_set in enzymes:
     
-    try: 
+    try: # Here we want to avoid the error "Can not add null vertex as sink"
     
         pShortest = lambda d: all(a.vLabelCount("C") <= 8 for a in d.right) # The likelihood of a big molecule undergoing a reaction is very high
 
@@ -74,7 +54,6 @@ for power_set in enzymes:
         dg = DG(graphDatabase=inputGraphs)
         dg.build().execute(strat)
             
-        # This is from pathway.py
         flow = Flow(dg)
         flow.addSource(ribuloseP)
         flow.addSource(water)
@@ -92,19 +71,12 @@ for power_set in enzymes:
         continue
     
     flow.addConstraint(outFlow[fructoseP] >= 1)
-    flow.objectiveFunction = -outFlow[fructoseP] # dg.findVertex(fructoseP)
+    flow.objectiveFunction = -outFlow[fructoseP] 
     for v in dg.vertices: flow.addSink(v)
-    flow.findSolutions(verbosity=0) #, absGap=0, maxNumSolution=2**20) # check absGap
+    flow.findSolutions(verbosity=0) 
     
-    # while True: 
-    #   sols = flow.findSolution()
-    #   if jfiohfaohaio:
-    #   break
-    
-    if (len(flow.solutions) == 0):
-        bad_enzymes.append(power_set)
-        continue
-    else:
+    if (len(flow.solutions) > 0):
+        
         good_enzymes.append(set(power_set))
         post.summarySection("Enzymes: %s " % list(power_set))
         flowPrinter = FlowPrinter()
@@ -145,16 +117,3 @@ latex += ("\\end{longtable}\n" +
 "\\end{center}\n")
 
 post.summaryRaw(latex)
-
-# for e in s0.flow.dg.edges:
-#     for r in e.rules:
-#         print(r.name)
-
-# First solution
-# s0 = flow.solutions[0]
-# s0.eval(outFlow[fructoseP])
-# Print info about the solution
-# s0.list()
-# Flow for this solution
-# s0_flow = s0.flow
-# s0_dg = s0.flow.dg
