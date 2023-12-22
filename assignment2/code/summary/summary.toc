@@ -1,0 +1,52 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {0.1}Enzymes: [Aldose-Ketose textless{}-(0), Transketolase(2), Transaldolase(3)] }{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Flow Solutions, id 25}{2}{section.0.2}%
+\contentsline {subsection}{\numberline {0.2.1}Solution 0}{2}{subsection.0.2.1}%
+\contentsline {subsubsection}{Overall Data}{2}{section*.2}%
+\contentsline {subsubsection}{Filtered Graph}{3}{section*.3}%
+\contentsline {section}{\numberline {0.3}Enzymes: [Aldose-Ketose textless{}-(0), Aldose-Ketose -textgreater{}(1), Transketolase(2), Transaldolase(3)] }{4}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Flow Solutions, id 41}{4}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Solution 0}{4}{subsection.0.4.1}%
+\contentsline {subsubsection}{Overall Data}{4}{section*.4}%
+\contentsline {subsubsection}{Filtered Graph}{5}{section*.5}%
+\contentsline {section}{\numberline {0.5}Enzymes: [Aldose-Ketose textless{}-(0), Transketolase(2), Transaldolase(3), Aldolase(4)] }{5}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Flow Solutions, id 47}{5}{section.0.6}%
+\contentsline {subsection}{\numberline {0.6.1}Solution 0}{5}{subsection.0.6.1}%
+\contentsline {subsubsection}{Overall Data}{5}{section*.6}%
+\contentsline {subsubsection}{Filtered Graph}{6}{section*.7}%
+\contentsline {section}{\numberline {0.7}Enzymes: [Aldose-Ketose textless{}-(0), Transketolase(2), Transaldolase(3), Phophohydrolase(5)] }{7}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Flow Solutions, id 48}{7}{section.0.8}%
+\contentsline {subsection}{\numberline {0.8.1}Solution 0}{7}{subsection.0.8.1}%
+\contentsline {subsubsection}{Overall Data}{7}{section*.8}%
+\contentsline {subsubsection}{Filtered Graph}{7}{section*.9}%
+\contentsline {section}{\numberline {0.9}Enzymes: [Aldose-Ketose textless{}-(0), Aldose-Ketose -textgreater{}(1), Transketolase(2), Transaldolase(3), Aldolase(4)] }{8}{section.0.9}%
+\contentsline {section}{\numberline {0.10}Flow Solutions, id 56}{8}{section.0.10}%
+\contentsline {subsection}{\numberline {0.10.1}Solution 0}{8}{subsection.0.10.1}%
+\contentsline {subsubsection}{Overall Data}{8}{section*.10}%
+\contentsline {subsubsection}{Filtered Graph}{9}{section*.11}%
+\contentsline {section}{\numberline {0.11}Enzymes: [Aldose-Ketose textless{}-(0), Aldose-Ketose -textgreater{}(1), Transketolase(2), Transaldolase(3), Phophohydrolase(5)] }{10}{section.0.11}%
+\contentsline {section}{\numberline {0.12}Flow Solutions, id 57}{10}{section.0.12}%
+\contentsline {subsection}{\numberline {0.12.1}Solution 0}{10}{subsection.0.12.1}%
+\contentsline {subsubsection}{Overall Data}{10}{section*.12}%
+\contentsline {subsubsection}{Filtered Graph}{11}{section*.13}%
+\contentsline {section}{\numberline {0.13}Enzymes: [Aldose-Ketose textless{}-(0), Aldose-Ketose -textgreater{}(1), Transketolase(2), Aldolase(4), Phophohydrolase(5)] }{11}{section.0.13}%
+\contentsline {section}{\numberline {0.14}Flow Solutions, id 58}{11}{section.0.14}%
+\contentsline {subsection}{\numberline {0.14.1}Solution 0}{11}{subsection.0.14.1}%
+\contentsline {subsubsection}{Overall Data}{11}{section*.14}%
+\contentsline {subsubsection}{Filtered Graph}{13}{section*.15}%
+\contentsline {section}{\numberline {0.15}Enzymes: [Aldose-Ketose textless{}-(0), Aldose-Ketose -textgreater{}(1), Transaldolase(3), Aldolase(4), Phophohydrolase(5)] }{14}{section.0.15}%
+\contentsline {section}{\numberline {0.16}Flow Solutions, id 59}{14}{section.0.16}%
+\contentsline {subsection}{\numberline {0.16.1}Solution 0}{14}{subsection.0.16.1}%
+\contentsline {subsubsection}{Overall Data}{14}{section*.16}%
+\contentsline {subsubsection}{Filtered Graph}{15}{section*.17}%
+\contentsline {section}{\numberline {0.17}Enzymes: [Aldose-Ketose textless{}-(0), Transketolase(2), Transaldolase(3), Aldolase(4), Phophohydrolase(5)] }{15}{section.0.17}%
+\contentsline {section}{\numberline {0.18}Flow Solutions, id 60}{15}{section.0.18}%
+\contentsline {subsection}{\numberline {0.18.1}Solution 0}{15}{subsection.0.18.1}%
+\contentsline {subsubsection}{Overall Data}{15}{section*.18}%
+\contentsline {subsubsection}{Filtered Graph}{16}{section*.19}%
+\contentsline {section}{\numberline {0.19}Enzymes: [Aldose-Ketose textless{}-(0), Aldose-Ketose -textgreater{}(1), Transketolase(2), Transaldolase(3), Aldolase(4), Phophohydrolase(5)] }{17}{section.0.19}%
+\contentsline {section}{\numberline {0.20}Flow Solutions, id 62}{17}{section.0.20}%
+\contentsline {subsection}{\numberline {0.20.1}Solution 0}{17}{subsection.0.20.1}%
+\contentsline {subsubsection}{Overall Data}{17}{section*.20}%
+\contentsline {subsubsection}{Filtered Graph}{18}{section*.21}%
+\contentsline {section}{\numberline {0.21}Results}{18}{section.0.21}%

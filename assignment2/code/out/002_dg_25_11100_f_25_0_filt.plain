@@ -1,0 +1,36 @@
+graph 1 12.061 13.59
+node "0-0" 3.9862 5.0554 3.3588 2.1802 "Ribulose-5-Phosphate" solid ellipse black lightgrey
+node "2-0" 1.3749 1.355 2.7499 2.1802 "p_{25,0}" solid ellipse black lightgrey
+node "4-0" 10.449 1.2178 3.0248 2.4356 "p_{25,1}" solid ellipse black lightgrey
+node "5-0" 6.6485 6.3523 2.8677 1.5321 "p_{25,2}" solid ellipse black lightgrey
+node "8-0" 10.883 5.4697 2.357 1.1785 "p_{25,4}" solid ellipse black lightgrey
+node "24-0" 5.8143 12.392 3.398 2.3963 "Fructose-6-Phosphate" solid ellipse black lightgrey
+node "25-0" 10.3 12.435 2.7499 2.1802 "p_{25,9}" solid ellipse black lightgrey
+node "6-0" 5.7106 1.0157 1.3056 0.5 "f 15, r_{2}" solid box black lightgrey
+node "27-0" 7.6245 3.9647 1.3056 0.5 "f 15, r_{3}" solid box black lightgrey
+node "30-0" 6.1639 8.8426 1.3056 0.5 "f 30, r_{3}" solid box black lightgrey
+node "48-0" 1.9047 8.8052 1.3056 0.5 "f 15, r_{2}" solid box black lightgrey
+node "0-0-IOFlow" 0.6878 5.6836 0.05 0.05 "" invis point black lightgrey
+node "8-0-IOFlow" 10.423 8.7411 0.05 0.05 "" invis point black lightgrey
+node "24-0-IOFlow" 1.3968 12.394 0.05 0.05 "" invis point black lightgrey
+edge "0-0" "2-0" 4 3.2864 4.0638 2.9297 3.5582 2.4954 2.9428 2.131 2.4264 "f 15, r_{0}" 2.1671 3.3493 solid black
+edge "0-0" "6-0" 4 4.4348 4.0046 4.7997 3.1497 5.2941 1.9913 5.547 1.399 solid black
+edge "0-0" "30-0" 4 4.5755 6.0803 5.0303 6.8712 5.6335 7.9203 5.9497 8.4702 solid black
+edge "0-0" "48-0" 4 3.4147 6.085 2.9842 6.8605 2.4183 7.8801 2.1162 8.4242 solid black
+edge "2-0" "6-0" 4 2.7468 1.2477 3.461 1.1918 4.3092 1.1254 4.9148 1.078 solid black
+edge "4-0" "27-0" 4 9.481 2.1593 8.9664 2.6596 8.3643 3.2452 7.9886 3.6106 solid black
+edge "5-0" "30-0" 4 6.4991 7.1198 6.4135 7.56 6.3095 8.094 6.2403 8.4497 solid black
+edge "8-0" "27-0" 4 10.014 5.0683 9.4756 4.8197 8.7948 4.5052 8.2977 4.2756 solid black
+edge "8-0" "8-0-IOFlow" 4 10.8 6.0583 10.692 6.8245 10.511 8.1195 10.447 8.5759 "f 15" 10.429 7.4213 solid black
+edge "24-0" "24-0-IOFlow" 4 4.1127 12.393 3.1223 12.393 1.9882 12.394 1.5663 12.394 "f 45" 2.6451 12.498 solid black
+edge "25-0" "48-0" 4 9.0929 11.913 7.3153 11.144 4.0494 9.7325 2.6136 9.1117 solid black
+edge "6-0" "4-0" 4 6.3645 1.0436 6.9885 1.0702 7.9546 1.1114 8.7907 1.1471 solid black
+edge "6-0" "5-0" 4 5.7546 1.2659 5.8841 2.0031 6.269 4.193 6.4892 5.4458 solid black
+edge "27-0" "0-0" 4 6.9699 4.1609 6.5993 4.272 6.1175 4.4164 5.6496 4.5567 solid black
+edge "27-0" "25-0" 4 7.7046 4.2182 8.0325 5.2562 9.2854 9.2223 9.9229 11.24 solid black
+edge "30-0" "8-0" 4 6.5147 8.5919 7.2664 8.0546 9.0485 6.7807 10.089 6.0368 solid black
+edge "30-0" "24-0" 4 6.1387 9.0979 6.0985 9.5063 6.0169 10.334 5.9457 11.058 solid black
+edge "48-0" "5-0" 4 2.3901 8.5542 3.1136 8.1801 4.4962 7.4652 5.4899 6.9514 solid black
+edge "48-0" "24-0" 4 2.1796 9.0574 2.6899 9.5255 3.8099 10.553 4.6727 11.345 solid black
+edge "0-0-IOFlow" "0-0" 4 0.71245 5.6789 0.84869 5.653 1.5289 5.5234 2.2343 5.3891 "f 60" 1.279 5.6381 solid black
+stop

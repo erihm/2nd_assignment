@@ -1,0 +1,955 @@
+Running Python Interpreter -----------------------------------------
+Executing code from '2ndassignment.py'
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 1 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 6 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Flow	num variables	1112
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 157 rows and 491 columns.
+MIP Presolve modified 82 coefficients.
+Aggregator did 20 substitutions.
+Reduced MIP has 367 rows, 601 columns, and 1752 nonzeros.
+Reduced MIP has 100 binaries, 501 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.05 ticks)
+Found incumbent of value -1.000000 after 0.00 sec. (4.69 ticks)
+Probing fixed 1 vars, tightened 36 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (1.88 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 57 rows and 30 columns.
+Reduced MIP has 310 rows, 571 columns, and 1631 nonzeros.
+Reduced MIP has 70 binaries, 501 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.45 ticks)
+Probing time = 0.00 sec. (1.70 ticks)
+Clique table members: 199.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.20 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           -1.0000      -99.0000              --- 
+*     0     0      integral     0      -45.0000      -45.0000       42    0.00%
+Elapsed time = 0.01 sec. (13.33 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.01 sec. (13.38 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.01 sec. (13.38 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 7 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Flow	num variables	1335
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 197 rows and 609 columns.
+MIP Presolve modified 91 coefficients.
+Aggregator did 26 substitutions.
+Reduced MIP has 404 rows, 695 columns, and 1982 nonzeros.
+Reduced MIP has 111 binaries, 584 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.62 ticks)
+Probing fixed 1 vars, tightened 38 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (2.15 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 65 rows and 34 columns.
+Reduced MIP has 339 rows, 661 columns, and 1844 nonzeros.
+Reduced MIP has 77 binaries, 584 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.63 ticks)
+Probing time = 0.00 sec. (1.94 ticks)
+Clique table members: 215.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.38 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0      -45.0000      -45.0000       48    0.00%
+Elapsed time = 0.02 sec. (19.23 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (19.28 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (19.28 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 3 graphs.
+  Round 4:
+  Round 4: Result subset has 2 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 4 graphs.
+  Round 4:
+  Round 4: Result subset has 2 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 2 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 2 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 1 graphs.
+  Round 3:
+  Round 3: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 8 graphs.
+  Round 4:
+  Round 4: Result subset has 3 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Flow	num variables	1172
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 182 rows and 506 columns.
+MIP Presolve modified 123 coefficients.
+Aggregator did 32 substitutions.
+Reduced MIP has 420 rows, 634 columns, and 1885 nonzeros.
+Reduced MIP has 126 binaries, 508 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.23 ticks)
+Probing fixed 1 vars, tightened 35 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (1.97 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 95 rows and 49 columns.
+Aggregator did 1 substitutions.
+Reduced MIP has 324 rows, 584 columns, and 1685 nonzeros.
+Reduced MIP has 77 binaries, 507 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.42 ticks)
+Probing time = 0.00 sec. (1.74 ticks)
+Clique table members: 212.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.31 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0      -45.0000      -45.0000       50    0.00%
+Elapsed time = 0.02 sec. (18.22 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (18.26 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (18.26 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 10 graphs.
+  Round 4:
+  Round 4: Result subset has 5 graphs.
+  Round 5:
+  Round 5: Result subset has 1 graphs.
+  Round 6:
+  Round 6: Result subset has 0 graphs.
+Flow	num variables	9380
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 323 rows and 2225 columns.
+MIP Presolve modified 202 coefficients.
+Aggregator did 17 substitutions.
+Reduced MIP has 1709 rows, 7138 columns, and 16934 nonzeros.
+Reduced MIP has 404 binaries, 6734 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (15.48 ticks)
+Found incumbent of value -10.000000 after 0.06 sec. (93.56 ticks)
+Probing time = 0.02 sec. (10.90 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1709 rows, 7138 columns, and 16934 nonzeros.
+Reduced MIP has 404 binaries, 6734 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.07 ticks)
+Probing fixed 2 vars, tightened 240 bounds.
+Probing time = 0.05 sec. (68.24 ticks)
+Clique table members: 1620.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.03 sec. (58.81 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          -10.0000      -99.0000           890.00%
+*     0     0      integral     0      -48.0000      -48.0000      705    0.00%
+Elapsed time = 0.18 sec. (254.52 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.18 sec. (254.96 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.18 sec. (254.96 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 6 graphs.
+  Round 4:
+  Round 4: Result subset has 1 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 9 graphs.
+  Round 4:
+  Round 4: Result subset has 5 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 1 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 9 graphs.
+  Round 4:
+  Round 4: Result subset has 7 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Flow	num variables	1437
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 238 rows and 635 columns.
+MIP Presolve modified 162 coefficients.
+Aggregator did 47 substitutions.
+Reduced MIP has 498 rows, 753 columns, and 2209 nonzeros.
+Reduced MIP has 157 binaries, 596 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.78 ticks)
+Found incumbent of value -1.000000 after 0.01 sec. (6.39 ticks)
+Probing fixed 1 vars, tightened 38 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.00 sec. (2.34 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 133 rows and 68 columns.
+Aggregator did 2 substitutions.
+Reduced MIP has 363 rows, 683 columns, and 1934 nonzeros.
+Reduced MIP has 89 binaries, 594 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.81 ticks)
+Probing time = 0.00 sec. (2.04 ticks)
+Clique table members: 239.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (1.40 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           -1.0000      -99.0000              --- 
+*     0     0      integral     0      -45.0000      -45.0000       46    0.00%
+Elapsed time = 0.02 sec. (17.71 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (17.78 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (17.78 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 12 graphs.
+  Round 4:
+  Round 4: Result subset has 5 graphs.
+  Round 5:
+  Round 5: Result subset has 0 graphs.
+Flow	num variables	10190
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 352 rows and 2438 columns.
+MIP Presolve modified 210 coefficients.
+Aggregator did 20 substitutions.
+Reduced MIP has 1805 rows, 7732 columns, and 18227 nonzeros.
+Reduced MIP has 428 binaries, 7304 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (16.99 ticks)
+Probing time = 0.02 sec. (11.17 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 1805 rows, 7732 columns, and 18227 nonzeros.
+Reduced MIP has 428 binaries, 7304 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.87 ticks)
+Probing fixed 2 vars, tightened 250 bounds.
+Probing time = 0.05 sec. (74.98 ticks)
+Clique table members: 1733.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.02 sec. (34.40 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0      -48.0000      -48.0000      513    0.00%
+Elapsed time = 0.19 sec. (259.18 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (259.58 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (259.58 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 8 graphs.
+  Round 4:
+  Round 4: Result subset has 10 graphs.
+  Round 5:
+  Round 5: Result subset has 14 graphs.
+  Round 6:
+  Round 6: Result subset has 5 graphs.
+  Round 7:
+  Round 7: Result subset has 10 graphs.
+  Round 8:
+  Round 8: Result subset has 3 graphs.
+  Round 9:
+  Round 9: Result subset has 0 graphs.
+Flow	num variables	4834
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 397 rows and 1091 columns.
+MIP Presolve modified 415 coefficients.
+Aggregator did 86 substitutions.
+Reduced MIP has 1738 rows, 3657 columns, and 10046 nonzeros.
+Reduced MIP has 537 binaries, 3120 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.80 ticks)
+Probing fixed 2 vars, tightened 26 bounds.
+Probing time = 0.02 sec. (26.10 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 265 rows and 134 columns.
+MIP Presolve modified 5 coefficients.
+Aggregator did 31 substitutions.
+Reduced MIP has 1442 rows, 3492 columns, and 9499 nonzeros.
+Reduced MIP has 403 binaries, 3089 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (12.09 ticks)
+Probing time = 0.00 sec. (6.10 ticks)
+Clique table members: 1341.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (8.11 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0      -15.0000      -15.0000      168    0.00%
+Elapsed time = 0.08 sec. (98.41 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.08 sec. (98.61 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.08 sec. (98.61 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 4 graphs.
+  Round 3:
+  Round 3: Result subset has 9 graphs.
+  Round 4:
+  Round 4: Result subset has 7 graphs.
+  Round 5:
+  Round 5: Result subset has 11 graphs.
+  Round 6:
+  Round 6: Result subset has 10 graphs.
+  Round 7:
+  Round 7: Result subset has 4 graphs.
+  Round 8:
+  Round 8: Result subset has 9 graphs.
+  Round 9:
+  Round 9: Result subset has 0 graphs.
+Flow	num variables	3217
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 387 rows and 827 columns.
+MIP Presolve modified 414 coefficients.
+Aggregator did 105 substitutions.
+Reduced MIP has 1426 rows, 2285 columns, and 6881 nonzeros.
+Reduced MIP has 478 binaries, 1807 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (6.42 ticks)
+Probing fixed 2 vars, tightened 17 bounds.
+Probing time = 0.01 sec. (12.91 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 266 rows and 135 columns.
+MIP Presolve modified 5 coefficients.
+Aggregator did 32 substitutions.
+Reduced MIP has 1128 rows, 2118 columns, and 6327 nonzeros.
+Reduced MIP has 343 binaries, 1775 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.55 ticks)
+Probing time = 0.00 sec. (4.66 ticks)
+Clique table members: 1112.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.00 sec. (4.25 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0      -10.0000      -10.0000       85    0.00%
+Elapsed time = 0.06 sec. (63.14 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.06 sec. (63.27 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.06 sec. (63.27 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 19 graphs.
+  Round 4:
+  Round 4: Result subset has 15 graphs.
+  Round 5:
+  Round 5: Result subset has 3 graphs.
+  Round 6:
+  Round 6: Result subset has 0 graphs.
+Flow	num variables	9731
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 425 rows and 2231 columns.
+MIP Presolve modified 369 coefficients.
+Aggregator did 56 substitutions.
+Reduced MIP has 2045 rows, 7444 columns, and 18125 nonzeros.
+Reduced MIP has 559 binaries, 6885 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (16.80 ticks)
+Probing time = 0.01 sec. (11.14 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 2045 rows, 7444 columns, and 18125 nonzeros.
+Reduced MIP has 559 binaries, 6885 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.98 ticks)
+Probing fixed 2 vars, tightened 245 bounds.
+Probing time = 0.05 sec. (71.83 ticks)
+Clique table members: 2329.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.03 sec. (51.77 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      -50.0000     2                    -50.0000      647         
+*     0+    0                          -50.0000      -50.0000             0.00%
+      0     0        cutoff            -50.0000      -50.0000      647    0.00%
+Elapsed time = 0.19 sec. (250.88 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.19 sec. (251.27 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.19 sec. (251.27 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 2 graphs.
+  Round 2:
+  Round 2: Result subset has 0 graphs.
+Error: Can not add null vertex as sink.
+Repeat, limit = 2147483647
+  Round 1:
+  Round 1: Result subset has 3 graphs.
+  Round 2:
+  Round 2: Result subset has 7 graphs.
+  Round 3:
+  Round 3: Result subset has 21 graphs.
+  Round 4:
+  Round 4: Result subset has 23 graphs.
+  Round 5:
+  Round 5: Result subset has 3 graphs.
+  Round 6:
+  Round 6: Result subset has 0 graphs.
+Flow	num variables	10675
+Version identifier: 22.1.1.0 | 2022-11-28 | 9160aff4d
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               1073741824
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Tried aggregator 2 times.
+MIP Presolve eliminated 478 rows and 2368 columns.
+MIP Presolve modified 423 coefficients.
+Aggregator did 80 substitutions.
+Reduced MIP has 2284 rows, 8227 columns, and 20027 nonzeros.
+Reduced MIP has 645 binaries, 7582 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (16.16 ticks)
+Probing time = 0.02 sec. (12.25 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 2284 rows, 8227 columns, and 20027 nonzeros.
+Reduced MIP has 645 binaries, 7582 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (12.29 ticks)
+Probing fixed 2 vars, tightened 283 bounds.
+Probing time = 0.06 sec. (92.32 ticks)
+Clique table members: 2818.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.03 sec. (50.15 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0     0      integral     0      -50.0000      -50.0000      603    0.00%
+Elapsed time = 0.21 sec. (308.36 ticks, tree = 0.00 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =    0.21 sec. (308.79 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.21 sec. (308.79 ticks)
+Flow	num solutions	1
+Flow	Calculation done
+WARNING: Check for solution mismatch skipped. Both the old and new collection is of size maxNumSolutions=1. But as they may be enumerated in different orders it is not generally possible to compare the solution collections.
+{'Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3)}
+{'Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3)}
+{'Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4)}
+{'Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Phophohydrolase'(5)}
+{'Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4)}
+{'Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Phophohydrolase'(5)}
+{'Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Aldolase'(4), 'Phophohydrolase'(5)}
+{'Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)}
+{'Aldose-Ketose <-'(0), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)}
+{'Aldose-Ketose <-'(0), 'Aldose-Ketose ->'(1), 'Transketolase'(2), 'Transaldolase'(3), 'Aldolase'(4), 'Phophohydrolase'(5)}
+End of code from '2ndassignment.py'
+
+real	0m4.175s
+user	0m4.056s
+sys	0m0.121s
